@@ -1,0 +1,13 @@
+{
+  "name": "americat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maurer2/americat.git",
+  "author": "Martin",
+  "license": "MIT",
+  "scripts": {
+    "python:virtualenv:create": "virtualenv python-env",
+    "python:virtualenv:start": "source python-env/bin/activate",
+    "python:data:dump": "python3 ./api/dump.py"
+  }
+}
