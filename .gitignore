@@ -60,11 +60,14 @@ typings/
 # next.js build output
 .next
 
-#vscode
+# vscode
 .vscode
 
-#python
-python-env
+# python
+python-env/
 
-#build files
-dist
+# build files
+dist/
+
+# svelte
+public/
