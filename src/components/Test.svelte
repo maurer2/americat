@@ -4,10 +4,15 @@
 
 <style>
   .title {
-    color: red;
+    color: green;
   }
 </style>
 
 <h1 class="title">
-  {title}
+  {title} HTML plain
 </h1>
+
+<template lang="pug">
+  h1.title
+    | {title} pug
+</template>
