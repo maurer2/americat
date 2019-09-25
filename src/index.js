@@ -1,6 +1,10 @@
-import 'core-js/stable';
+import Test from './components/Test.svelte';
 
-import main from './main';
-import './style.css';
+const test = new Test({
+  target: document.body,
+  props: {
+    title: 'Americat',
+  },
+});
 
-main();
+export default test;
