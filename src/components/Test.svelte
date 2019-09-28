@@ -2,9 +2,11 @@
   export let title;
 </script>
 
-<style>
+<style lang="scss">
+  $test: red;
+
   .title {
-    color: green;
+    color: $test;
   }
 </style>
 

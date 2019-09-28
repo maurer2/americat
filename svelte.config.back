@@ -1,0 +1,12 @@
+import { scss } from 'svelte-preprocess';
+
+module.exports = {
+  preprocess: [
+    scss({
+      aliases: [
+        scss,
+      ],
+      scss: true,
+    }),
+  ],
+};

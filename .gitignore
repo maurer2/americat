@@ -71,3 +71,9 @@ dist/
 
 # svelte
 public/
+
+# vscode
+.vscode
+
+# osx
+.DS_Store
