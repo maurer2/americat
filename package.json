@@ -8,6 +8,8 @@
   "scripts": {
     "python:virtualenv:create": "virtualenv python-env",
     "python:virtualenv:start": "source python-env/bin/activate",
+    "python:lint": "pylint ./api",
+    "python:format": "black ./api",
     "python:data:dump": "python3 ./api/dump.py",
     "build": "webpack --progress --mode development",
     "watch": "webpack --progress --mode development --watch",
