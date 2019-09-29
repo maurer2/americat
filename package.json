@@ -8,9 +8,11 @@
   "scripts": {
     "python:virtualenv:create": "virtualenv python-env",
     "python:virtualenv:start": "source python-env/bin/activate",
+    "python:install": "pip3 install -r requirements.txt",
     "python:lint": "pylint ./api",
     "python:format": "black ./api",
     "python:data:dump": "python3 ./api/dump.py",
+    "python:data:parse": "python3 ./api/parse.py",
     "build": "webpack --progress --mode development",
     "watch": "webpack --progress --mode development --watch",
     "start": "webpack-dev-server --config webpack.config.js --hot",
