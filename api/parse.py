@@ -17,15 +17,14 @@ def get_file_contents() -> str:
     return text
 
 
-# def get_entries(markup: str) -> List:
 def get_entries(markup: str):
+    # def get_entries(markup: str) -> List:
     """Get array of entries"""
     try:
         parsed_body = BeautifulSoup(markup, "html.parser")
-
-        # https://stackoverflow.com/questions/18725760/beautifulsoup-findall-given-multiple-classes
-        container = parsed_body.find_all(True, {"class": "amp-wp-article-content"})
-        entries = container[0].find_all(True, {"class": "wp-caption"})
+        container = parsed_body.select(".amp-wp-article-content")
+        # first amp-wp-inline is empty
+        entries = container[0].select("p[class^=amp-wp-inline-] ~ p[class^=amp-wp-inline-]")
 
         return entries
 
@@ -34,7 +33,38 @@ def get_entries(markup: str):
         return []
 
 
+def map_entry(entry):
+    """Map all entries"""
+
+    child_elements = entry.findChildren(text=True)
+
+    mapped_entry = {
+        "state": child_elements[0],
+        "householdsOwningACat": child_elements[2],
+        "catPopulation": child_elements[4],
+        "catsPerHousehold": child_elements[6],
+    }
+
+    return mapped_entry
+
+
+def map_entries(entries):
+    """Extract attributes and create new entry from extracted attributes"""
+
+    mapped_entries = list(map(map_entry, entries))
+
+    return mapped_entries
+
+
+def convert_results_to_list(results):
+    """Convert resultsList-type to list"""
+    entries_list = list(map(lambda entry: entry.prettify(), results))
+
+    return entries_list
+
+
 CONTENT = get_file_contents()
 ENTRIES = get_entries(CONTENT)
+ENTRIES_MAPPED = map_entries(ENTRIES)
 
-print(len(ENTRIES))
+print(ENTRIES_MAPPED)
