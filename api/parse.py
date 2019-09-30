@@ -40,57 +40,77 @@ def map_entry(entry: object) -> dict:
 
     child_elements = entry.findChildren(text=True)
 
-    rawStateAndRank = child_elements[0]
-    rawHouseholdsWithCats = child_elements[2]
-    rawCatPopulation = child_elements[4]
-    rawCatsPerHousehold = child_elements[6]
+    raw_state_and_rank = child_elements[0]
+    raw_households_with_cats = child_elements[2]
+    raw_cat_population = child_elements[4]
+    raw_cats_per_household = child_elements[6]
 
     mapped_entry = {
-        "rank": get_rank(rawStateAndRank),
-        "state": get_state(rawStateAndRank),
-        "householdsWithCats": get_households_with_cats(rawHouseholdsWithCats),
-        "catPopulationAbsolute": get_cat_population_absolute(rawCatPopulation),
-        "catPopulationRelative": get_cat_population_relative(rawCatPopulation),
-        "catsPerHouseholdAbsolute": get_cats_perp_household_absolute(rawCatsPerHousehold),
-        "catsPerHouseholdRelative": get_cats_perp_household_relative(rawCatsPerHousehold),
+        "rank": get_rank(raw_state_and_rank),
+        "state": get_state(raw_state_and_rank),
+        "householdsWithCats": get_households_with_cats(raw_households_with_cats),
+        "catPopulationAbsolute": get_cat_population_absolute(raw_cat_population),
+        "catPopulationRelative": get_cat_population_relative(raw_cat_population),
+        "catsPerHouseholdAbsolute": get_cats_per_household_absolute(
+            raw_cats_per_household
+        ),
+        "catsPerHouseholdRelative": get_cats_per_household_relative(
+            raw_cats_per_household
+        ),
     }
 
     return mapped_entry
 
-def get_rank(text: str):
+
+def get_rank(text: str) -> str:
+    """Extract rank"""
+
     extracted_text = text.split(".", 1)
 
     return extracted_text[0].strip()
 
-def get_state(text: str):
+
+def get_state(text: str) -> str:
+    """Extract state"""
     extracted_text = text.split(".", 1)
 
     return extracted_text[1].strip()
 
-def get_households_with_cats(text: str):
-    extracted_text = text.replace('%', '')
+
+def get_households_with_cats(text: str) -> str:
+    """Extract households with cats relative"""
+    extracted_text = text.replace("%", "").replace("(tied)", "")
 
     return extracted_text.strip()
 
-def get_cat_population_absolute(text: str):
+
+def get_cat_population_absolute(text: str) -> str:
+    """Extract cat population absolute"""
     extracted_text = text.split("(", 1)
 
     return extracted_text[0].strip()
 
-def get_cat_population_relative(text: str):
+
+def get_cat_population_relative(text: str) -> str:
+    """Extract cat population relative"""
     extracted_text = text.split("(", 1)
 
-    return extracted_text[1].replace(")", '').strip()
+    return extracted_text[1].replace(")", "").strip()
 
-def get_cats_perp_household_absolute(text: str):
+
+def get_cats_per_household_absolute(text: str) -> str:
+    """Extract cats per household absolute"""
     extracted_text = text.split("(", 1)
 
     return extracted_text[0].strip()
 
-def get_cats_perp_household_relative(text: str):
+
+def get_cats_per_household_relative(text: str) -> str:
+    """Extract cats per household absolute"""
     extracted_text = text.split("(", 1)
 
-    return extracted_text[1].replace(")", '').strip()
+    return extracted_text[1].replace(")", "").strip()
+
 
 def map_entries(entries: object) -> list:
     """Extract attributes and create new entry from extracted attributes"""
