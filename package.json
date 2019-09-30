@@ -13,6 +13,7 @@
     "python:format": "black ./api",
     "python:data:dump": "python3 ./api/dump.py",
     "python:data:parse": "python3 ./api/parse.py",
+    "python:data:map": "python3 ./api/mapper.py",
     "build": "webpack --progress --mode development",
     "watch": "webpack --progress --mode development --watch",
     "start": "webpack-dev-server --config webpack.config.js --hot",
