@@ -1,290 +1,434 @@
 [
     {
-        "state": "48. Utah ",
-        "householdsOwningACat": "24.6%",
-        "catPopulation": " 455,000 (12th lowest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "48",
+        "state": "Utah",
+        "householdsWithCats": "24.6",
+        "catPopulationAbsolute": "455,000",
+        "catPopulationRelative": "12th lowest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "47. New Jersey ",
-        "householdsOwningACat": "25.3%",
-        "catPopulation": " 1,468,000 (19th highest)",
-        "catsPerHousehold": " 1.8 (9th lowest)"
+        "rank": "47",
+        "state": "New Jersey",
+        "householdsWithCats": "25.3",
+        "catPopulationAbsolute": "1,468,000",
+        "catPopulationRelative": "19th highest",
+        "catsPerHouseholdAbsolute": "1.8",
+        "catsPerHouseholdRelative": "9th lowest"
     },
     {
-        "state": "46. Louisiana ",
-        "householdsOwningACat": "25.9%",
-        "catPopulation": " 877,000 (23rd lowest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "46",
+        "state": "Louisiana",
+        "householdsWithCats": "25.9",
+        "catPopulationAbsolute": "877,000",
+        "catPopulationRelative": "23rd lowest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "45. Illinois ",
-        "householdsOwningACat": "26.3%",
-        "catPopulation": " 2,453,000 (7th highest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "45",
+        "state": "Illinois",
+        "householdsWithCats": "26.3",
+        "catPopulationAbsolute": "2,453,000",
+        "catPopulationRelative": "7th highest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "44. Florida ",
-        "householdsOwningACat": "27.3% (tied)",
-        "catPopulation": " 4,375,000 (3rd highest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "44",
+        "state": "Florida",
+        "householdsWithCats": "27.3 (tied)",
+        "catPopulationAbsolute": "4,375,000",
+        "catPopulationRelative": "3rd highest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "43. Georgia ",
-        "householdsOwningACat": "27.3% (tied)",
-        "catPopulation": " 2,162,000 (10th highest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "43",
+        "state": "Georgia",
+        "householdsWithCats": "27.3 (tied)",
+        "catPopulationAbsolute": "2,162,000",
+        "catPopulationRelative": "10th highest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "42. Alabama ",
-        "householdsOwningACat": "\u00a027.4%",
-        "catPopulation": " 1,252,000 (23rd highest)",
-        "catsPerHousehold": " 2.5 (2nd highest)"
+        "rank": "42",
+        "state": "Alabama",
+        "householdsWithCats": "27.4",
+        "catPopulationAbsolute": "1,252,000",
+        "catPopulationRelative": "23rd highest",
+        "catsPerHouseholdAbsolute": "2.5",
+        "catsPerHouseholdRelative": "2nd highest"
     },
     {
-        "state": "41. Rhode Island ",
-        "householdsOwningACat": "27.6%",
-        "catPopulation": " 212,000 (6th lowest)",
-        "catsPerHousehold": " 1.8 (9th lowest)"
+        "rank": "41",
+        "state": "Rhode Island",
+        "householdsWithCats": "27.6",
+        "catPopulationAbsolute": "212,000",
+        "catPopulationRelative": "6th lowest",
+        "catsPerHouseholdAbsolute": "1.8",
+        "catsPerHouseholdRelative": "9th lowest"
     },
     {
-        "state": "40. South Carolina ",
-        "householdsOwningACat": "27.8%",
-        "catPopulation": " 1,039,000 (24th lowest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "40",
+        "state": "South Carolina",
+        "householdsWithCats": "27.8",
+        "catPopulationAbsolute": "1,039,000",
+        "catPopulationRelative": "24th lowest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "39. California ",
-        "householdsOwningACat": "28.3% (tied)",
-        "catPopulation": " 7,118,000 (the highest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "39",
+        "state": "California",
+        "householdsWithCats": "28.3 (tied)",
+        "catPopulationAbsolute": "7,118,000",
+        "catPopulationRelative": "the highest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "38. Texas ",
-        "householdsOwningACat": "\u00a028.3% (tied)",
-        "catPopulation": " 5,565,000 (2nd highest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "38",
+        "state": "Texas",
+        "householdsWithCats": "28.3 (tied)",
+        "catPopulationAbsolute": "5,565,000",
+        "catPopulationRelative": "2nd highest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "37. Virginia ",
-        "householdsOwningACat": "29.0%",
-        "catPopulation": " 1,855,000 (12th highest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "37",
+        "state": "Virginia",
+        "householdsWithCats": "29.0",
+        "catPopulationAbsolute": "1,855,000",
+        "catPopulationRelative": "12th highest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "36. Mississippi ",
-        "householdsOwningACat": "29.1% (tied)",
-        "catPopulation": " 668,000 (18th lowest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "36",
+        "state": "Mississippi",
+        "householdsWithCats": "29.1 (tied)",
+        "catPopulationAbsolute": "668,000",
+        "catPopulationRelative": "18th lowest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "35. New York ",
-        "householdsOwningACat": "29.1% (tied)",
-        "catPopulation": " 4,261,000 (4th highest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "35",
+        "state": "New York",
+        "householdsWithCats": "29.1 (tied)",
+        "catPopulationAbsolute": "4,261,000",
+        "catPopulationRelative": "4th highest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "34. North Carolina ",
-        "householdsOwningACat": "29.5%",
-        "catPopulation": " 2,220,000 (9th highest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "34",
+        "state": "North Carolina",
+        "householdsWithCats": "29.5",
+        "catPopulationAbsolute": "2,220,000",
+        "catPopulationRelative": "9th highest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "33. Arizona ",
-        "householdsOwningACat": "29.6%",
-        "catPopulation": " 1,438,000 (20th highest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "33",
+        "state": "Arizona",
+        "householdsWithCats": "29.6",
+        "catPopulationAbsolute": "1,438,000",
+        "catPopulationRelative": "20th highest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "32. Minnesota ",
-        "householdsOwningACat": "29.7%",
-        "catPopulation": " 1,264,000 (22nd highest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "32",
+        "state": "Minnesota",
+        "householdsWithCats": "29.7",
+        "catPopulationAbsolute": "1,264,000",
+        "catPopulationRelative": "22nd highest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "31. Maryland ",
-        "householdsOwningACat": "29.8% (tied)",
-        "catPopulation": " 1,677,000 (15th highest)",
-        "catsPerHousehold": " 2.6 (the highest)"
+        "rank": "31",
+        "state": "Maryland",
+        "householdsWithCats": "29.8 (tied)",
+        "catPopulationAbsolute": "1,677,000",
+        "catPopulationRelative": "15th highest",
+        "catsPerHouseholdAbsolute": "2.6",
+        "catsPerHouseholdRelative": "the highest"
     },
     {
-        "state": "30. Tennessee ",
-        "householdsOwningACat": "\u00a029.8% (tied)",
-        "catPopulation": " 1,749,000 (14th highest)",
-        "catsPerHousehold": " 2.3 (4th highest)"
+        "rank": "30",
+        "state": "Tennessee",
+        "householdsWithCats": "29.8 (tied)",
+        "catPopulationAbsolute": "1,749,000",
+        "catPopulationRelative": "14th highest",
+        "catsPerHouseholdAbsolute": "2.3",
+        "catsPerHouseholdRelative": "4th highest"
     },
     {
-        "state": "29. Iowa ",
-        "householdsOwningACat": "30.3% (tied)",
-        "catPopulation": " 805,000 (21st lowest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "29",
+        "state": "Iowa",
+        "householdsWithCats": "30.3 (tied)",
+        "catPopulationAbsolute": "805,000",
+        "catPopulationRelative": "21st lowest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "28. Nevada ",
-        "householdsOwningACat": "30.3% (tied)",
-        "catPopulation": " 625,000 (16th lowest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "28",
+        "state": "Nevada",
+        "householdsWithCats": "30.3 (tied)",
+        "catPopulationAbsolute": "625,000",
+        "catPopulationRelative": "16th lowest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "27. Arkansas ",
-        "householdsOwningACat": "30.6%",
-        "catPopulation": " 810,000 (22nd lowest)",
-        "catsPerHousehold": " 2.3 (4th highest)"
+        "rank": "27",
+        "state": "Arkansas",
+        "householdsWithCats": "30.6",
+        "catPopulationAbsolute": "810,000",
+        "catPopulationRelative": "22nd lowest",
+        "catsPerHouseholdAbsolute": "2.3",
+        "catsPerHouseholdRelative": "4th highest"
     },
     {
-        "state": "26. Michigan ",
-        "householdsOwningACat": "31.3% (tied)",
-        "catPopulation": " 2,420,000 (8th highest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "26",
+        "state": "Michigan",
+        "householdsWithCats": "31.3 (tied)",
+        "catPopulationAbsolute": "2,420,000",
+        "catPopulationRelative": "8th highest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "25. Nebraska ",
-        "householdsOwningACat": "31.3% (tied)",
-        "catPopulation": " 514,000 (14th lowest)",
-        "catsPerHousehold": " 2.3 (4th highest)"
+        "rank": "25",
+        "state": "Nebraska",
+        "householdsWithCats": "31.3 (tied)",
+        "catPopulationAbsolute": "514,000",
+        "catPopulationRelative": "14th lowest",
+        "catsPerHouseholdAbsolute": "2.3",
+        "catsPerHouseholdRelative": "4th highest"
     },
     {
-        "state": "24. North Dakota ",
-        "householdsOwningACat": "31.4%",
-        "catPopulation": " 174,000 (4th lowest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "24",
+        "state": "North Dakota",
+        "householdsWithCats": "31.4",
+        "catPopulationAbsolute": "174,000",
+        "catPopulationRelative": "4th lowest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "23. Connecticut ",
-        "householdsOwningACat": "31.9%",
-        "catPopulation": " 796,000 (20th lowest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "23",
+        "state": "Connecticut",
+        "householdsWithCats": "31.9",
+        "catPopulationAbsolute": "796,000",
+        "catPopulationRelative": "20th lowest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "22. New Mexico ",
-        "householdsOwningACat": "32.0%",
-        "catPopulation": " 533,000 (15th lowest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "22",
+        "state": "New Mexico",
+        "householdsWithCats": "32.0",
+        "catPopulationAbsolute": "533,000",
+        "catPopulationRelative": "15th lowest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "21. Missouri ",
-        "householdsOwningACat": "32.2%",
-        "catPopulation": " 1,653,000 (16th highest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "21",
+        "state": "Missouri",
+        "householdsWithCats": "32.2",
+        "catPopulationAbsolute": "1,653,000",
+        "catPopulationRelative": "16th highest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "20. Colorado ",
-        "householdsOwningACat": "\u00a032.3%",
-        "catPopulation": " 1,191,000 (24th highest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "20",
+        "state": "Colorado",
+        "householdsWithCats": "32.3",
+        "catPopulationAbsolute": "1,191,000",
+        "catPopulationRelative": "24th highest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "19. Oklahoma ",
-        "householdsOwningACat": "32.6%",
-        "catPopulation": " 1,041,000 (25th lowest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "19",
+        "state": "Oklahoma",
+        "householdsWithCats": "32.6",
+        "catPopulationAbsolute": "1,041,000",
+        "catPopulationRelative": "25th lowest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "18. Wisconsin ",
-        "householdsOwningACat": "33.0%",
-        "catPopulation": " 1,510,000 (18th highest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "18",
+        "state": "Wisconsin",
+        "householdsWithCats": "33.0",
+        "catPopulationAbsolute": "1,510,000",
+        "catPopulationRelative": "18th highest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "17. Kansas ",
-        "householdsOwningACat": "33.3% (tied)",
-        "catPopulation": " 731,000 (19th lowest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "17",
+        "state": "Kansas",
+        "householdsWithCats": "33.3 (tied)",
+        "catPopulationAbsolute": "731,000",
+        "catPopulationRelative": "19th lowest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "16. Ohio ",
-        "householdsOwningACat": "33.3% (tied)",
-        "catPopulation": " 3,786,000 (5th highest)",
-        "catsPerHousehold": " 2.4 (3rd highest)"
+        "rank": "16",
+        "state": "Ohio",
+        "householdsWithCats": "33.3 (tied)",
+        "catPopulationAbsolute": "3,786,000",
+        "catPopulationRelative": "5th highest",
+        "catsPerHouseholdAbsolute": "2.4",
+        "catsPerHouseholdRelative": "3rd highest"
     },
     {
-        "state": "15. Montana ",
-        "householdsOwningACat": "33.6%",
-        "catPopulation": " 277,000 (8th lowest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "15",
+        "state": "Montana",
+        "householdsWithCats": "33.6",
+        "catPopulationAbsolute": "277,000",
+        "catPopulationRelative": "8th lowest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "14. Delaware ",
-        "householdsOwningACat": ": 33.7%",
-        "catPopulation": " 187,000 (5th lowest)",
-        "catsPerHousehold": " 1.7 (3rd lowest)"
+        "rank": "14",
+        "state": "Delaware",
+        "householdsWithCats": ": 33.7",
+        "catPopulationAbsolute": "187,000",
+        "catPopulationRelative": "5th lowest",
+        "catsPerHouseholdAbsolute": "1.7",
+        "catsPerHouseholdRelative": "3rd lowest"
     },
     {
-        "state": "13. Pennsylvania ",
-        "householdsOwningACat": "33.8%",
-        "catPopulation": " 3,544,000 (6th highest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "13",
+        "state": "Pennsylvania",
+        "householdsWithCats": "33.8",
+        "catPopulationAbsolute": "3,544,000",
+        "catPopulationRelative": "6th highest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "12. Wyoming ",
-        "householdsOwningACat": "33.9%",
-        "catPopulation": "144,000 (3rd lowest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "12",
+        "state": "Wyoming",
+        "householdsWithCats": "33.9",
+        "catPopulationAbsolute": "144,000",
+        "catPopulationRelative": "3rd lowest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "11. Massachusetts ",
-        "householdsOwningACat": "34.1%",
-        "catPopulation": " 1,593,000 (17th highest)",
-        "catsPerHousehold": " 1.8 (9th lowest)"
+        "rank": "11",
+        "state": "Massachusetts",
+        "householdsWithCats": "34.1",
+        "catPopulationAbsolute": "1,593,000",
+        "catPopulationRelative": "17th highest",
+        "catsPerHouseholdAbsolute": "1.8",
+        "catsPerHouseholdRelative": "9th lowest"
     },
     {
-        "state": "10. New Hampshire ",
-        "householdsOwningACat": "34.2%",
-        "catPopulation": " 309,000 (10th lowest)",
-        "catsPerHousehold": " 1.8 (9th lowest)"
+        "rank": "10",
+        "state": "New Hampshire",
+        "householdsWithCats": "34.2",
+        "catPopulationAbsolute": "309,000",
+        "catPopulationRelative": "10th lowest",
+        "catsPerHouseholdAbsolute": "1.8",
+        "catsPerHouseholdRelative": "9th lowest"
     },
     {
-        "state": "9. Indiana ",
-        "householdsOwningACat": "34.4%",
-        "catPopulation": " 1,912,000 (11th highest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "9",
+        "state": "Indiana",
+        "householdsWithCats": "34.4",
+        "catPopulationAbsolute": "1,912,000",
+        "catPopulationRelative": "11th highest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "8. Idaho ",
-        "householdsOwningACat": "34.6%",
-        "catPopulation": " 393,000 (11th lowest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "8",
+        "state": "Idaho",
+        "householdsWithCats": "34.6",
+        "catPopulationAbsolute": "393,000",
+        "catPopulationRelative": "11th lowest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "7. Kentucky ",
-        "householdsOwningACat": "36.8%",
-        "catPopulation": " 1,349,000 (21st highest)",
-        "catsPerHousehold": " 2.1 (14th highest)"
+        "rank": "7",
+        "state": "Kentucky",
+        "householdsWithCats": "36.8",
+        "catPopulationAbsolute": "1,349,000",
+        "catPopulationRelative": "21st highest",
+        "catsPerHouseholdAbsolute": "2.1",
+        "catsPerHouseholdRelative": "14th highest"
     },
     {
-        "state": "6. West Virginia ",
-        "householdsOwningACat": "38.1%",
-        "catPopulation": " 628,000 (17th lowest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "6",
+        "state": "West Virginia",
+        "householdsWithCats": "38.1",
+        "catPopulationAbsolute": "628,000",
+        "catPopulationRelative": "17th lowest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "5. Washington ",
-        "householdsOwningACat": "39.0%",
-        "catPopulation": " 1,844,000 (13th highest)",
-        "catsPerHousehold": " 1.8 (9th lowest)"
+        "rank": "5",
+        "state": "Washington",
+        "householdsWithCats": "39.0",
+        "catPopulationAbsolute": "1,844,000",
+        "catPopulationRelative": "13th highest",
+        "catsPerHouseholdAbsolute": "1.8",
+        "catsPerHouseholdRelative": "9th lowest"
     },
     {
-        "state": "4. South Dakota ",
-        "householdsOwningACat": "39.1%",
-        "catPopulation": " 290,000 (9th lowest)",
-        "catsPerHousehold": " 2.2 (7th highest)"
+        "rank": "4",
+        "state": "South Dakota",
+        "householdsWithCats": "39.1",
+        "catPopulationAbsolute": "290,000",
+        "catPopulationRelative": "9th lowest",
+        "catsPerHouseholdAbsolute": "2.2",
+        "catsPerHouseholdRelative": "7th highest"
     },
     {
-        "state": "3. Oregon ",
-        "householdsOwningACat": "40.2%",
-        "catPopulation": " 1,185,000 (25th highest)",
-        "catsPerHousehold": " 2.0 (22nd highest)"
+        "rank": "3",
+        "state": "Oregon",
+        "householdsWithCats": "40.2",
+        "catPopulationAbsolute": "1,185,000",
+        "catPopulationRelative": "25th highest",
+        "catsPerHouseholdAbsolute": "2.0",
+        "catsPerHouseholdRelative": "22nd highest"
     },
     {
-        "state": "2. Maine ",
-        "householdsOwningACat": "46.4%",
-        "catPopulation": " 498,000 (13th lowest)",
-        "catsPerHousehold": " 1.9 (19th lowest)"
+        "rank": "2",
+        "state": "Maine",
+        "householdsWithCats": "46.4",
+        "catPopulationAbsolute": "498,000",
+        "catPopulationRelative": "13th lowest",
+        "catsPerHouseholdAbsolute": "1.9",
+        "catsPerHouseholdRelative": "19th lowest"
     },
     {
-        "state": "1. Vermont ",
-        "householdsOwningACat": "49.5%",
-        "catPopulation": " 234,000 (7th lowest)",
-        "catsPerHousehold": " 1.8 (9th lowest)"
+        "rank": "1",
+        "state": "Vermont",
+        "householdsWithCats": "49.5",
+        "catPopulationAbsolute": "234,000",
+        "catPopulationRelative": "7th lowest",
+        "catsPerHouseholdAbsolute": "1.8",
+        "catsPerHouseholdRelative": "9th lowest"
     }
 ]

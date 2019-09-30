@@ -40,15 +40,57 @@ def map_entry(entry: object) -> dict:
 
     child_elements = entry.findChildren(text=True)
 
+    rawStateAndRank = child_elements[0]
+    rawHouseholdsWithCats = child_elements[2]
+    rawCatPopulation = child_elements[4]
+    rawCatsPerHousehold = child_elements[6]
+
     mapped_entry = {
-        "state": child_elements[0],
-        "householdsOwningACat": child_elements[2],
-        "catPopulation": child_elements[4],
-        "catsPerHousehold": child_elements[6],
+        "rank": get_rank(rawStateAndRank),
+        "state": get_state(rawStateAndRank),
+        "householdsWithCats": get_households_with_cats(rawHouseholdsWithCats),
+        "catPopulationAbsolute": get_cat_population_absolute(rawCatPopulation),
+        "catPopulationRelative": get_cat_population_relative(rawCatPopulation),
+        "catsPerHouseholdAbsolute": get_cats_perp_household_absolute(rawCatsPerHousehold),
+        "catsPerHouseholdRelative": get_cats_perp_household_relative(rawCatsPerHousehold),
     }
 
     return mapped_entry
 
+def get_rank(text: str):
+    extracted_text = text.split(".", 1)
+
+    return extracted_text[0].strip()
+
+def get_state(text: str):
+    extracted_text = text.split(".", 1)
+
+    return extracted_text[1].strip()
+
+def get_households_with_cats(text: str):
+    extracted_text = text.replace('%', '')
+
+    return extracted_text.strip()
+
+def get_cat_population_absolute(text: str):
+    extracted_text = text.split("(", 1)
+
+    return extracted_text[0].strip()
+
+def get_cat_population_relative(text: str):
+    extracted_text = text.split("(", 1)
+
+    return extracted_text[1].replace(")", '').strip()
+
+def get_cats_perp_household_absolute(text: str):
+    extracted_text = text.split("(", 1)
+
+    return extracted_text[0].strip()
+
+def get_cats_perp_household_relative(text: str):
+    extracted_text = text.split("(", 1)
+
+    return extracted_text[1].replace(")", '').strip()
 
 def map_entries(entries: object) -> list:
     """Extract attributes and create new entry from extracted attributes"""
@@ -84,5 +126,7 @@ CONTENT = get_file_contents()
 ENTRIES = get_entries(CONTENT)
 ENTRIES_MAPPED = map_entries(ENTRIES)
 JSON_STRING = json_stringify(ENTRIES_MAPPED)
+
+print(JSON_STRING)
 
 write_file(JSON_STRING)
