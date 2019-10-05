@@ -1,6 +1,7 @@
+import 'normalize.css';
 import App from './components/App';
 
-const dummyData = [
+const list = [
   {
     rank: '48',
     state: 'Utah',
@@ -18,7 +19,7 @@ const dummyData = [
 const currentApp = new App({
   target: document.body,
   props: {
-    list: dummyData,
+    list,
   },
 });
 
