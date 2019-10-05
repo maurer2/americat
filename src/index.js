@@ -1,10 +1,25 @@
-import Test from './components/Test.svelte';
+import App from './components/App';
 
-const test = new Test({
+const dummyData = [
+  {
+    rank: '48',
+    state: 'Utah',
+  },
+  {
+    rank: '47',
+    state: 'New Jersey',
+  },
+  {
+    rank: '46',
+    state: 'Louisiana',
+  },
+];
+
+const currentApp = new App({
   target: document.body,
   props: {
-    title: 'Americat',
+    list: dummyData,
   },
 });
 
-export default test;
+export default currentApp;

@@ -2,7 +2,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const sveltePreprocess = require('svelte-preprocess');
 const scss = require('svelte-preprocess');
-
 // const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
@@ -67,7 +66,7 @@ module.exports = {
     compress: false,
     port: 9000,
     watchContentBase: true,
-    hot: true,
+    hot: false,
     inline: true,
   },
 };

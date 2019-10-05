@@ -77,3 +77,6 @@ public/
 
 # osx
 .DS_Store
+
+# pycharm
+.idea
