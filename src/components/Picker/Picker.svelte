@@ -3,6 +3,12 @@
 
   // props
   export let keys;
+  export let activeKey;
+
+  let buttonLabels = {
+    rank: 'Rank',
+    state: 'State',
+  }
 
   // local vars
   const dispatch = createEventDispatcher();
@@ -15,6 +21,14 @@
     // svelte 3
     dispatch('sortBy', key);
   }
+
+  function getButtonLabel(activeKey) {
+    if (!(activeKey in buttonLabels)) {
+      return '';
+    }
+
+    return buttonLabels[activeKey];
+  }
 </script>
 
 <style lang="scss">
@@ -25,6 +39,15 @@
   .title {
     font-size: 1rem;
   }
+
+  .button {
+    background: white;
+
+    &--is-active {
+      color: red;
+    }
+  }
+
 </style>
 
 <template lang="html">
@@ -35,11 +58,11 @@
     <div class="button-group">
       {#each keys as key}
         <button
-          class="key"
+          class="button {key === activeKey ? 'button--is-active' : ''}"
           key={key}
           on:click|stopPropagation={() => handleButtonClick(key)}
         >
-          {key}
+          {getButtonLabel(key)}
         </button>
       {/each}
     </div>

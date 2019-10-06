@@ -72,7 +72,11 @@
       </h1>
     </header>
     <main class="main">
-      <Picker on:sortBy={(key) => handleSortChange(key)} keys={keys} />
+      <Picker
+        on:sortBy={(key) => handleSortChange(key)}
+        keys={keys}
+        activeKey={sortBy}
+      />
       <Results list={listSorted} />
     </main>
   </div>
