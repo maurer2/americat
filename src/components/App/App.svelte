@@ -7,12 +7,23 @@
   export let list;
 
   // reactive vars
-  $: keys = getKeys(list);
-  $: listSorted = getSortedList(list);
+  $: listUnsorted = list.slice();
+  $: sortBy = 'rank';
+  $: keys = getKeys(listUnsorted);
+  $: listSorted = getSortedList(listUnsorted, sortBy);
 
   // functions
-  function getSortedList(list) {
-    console.log(list);
+  function getSortedList(list, sortBy) {
+    // const listUnsorted = list.slice();
+
+    const listSorted = list.sort((elementFirst, elementSecond) => {
+      const sortElementFirst = elementFirst[sortBy];
+      const sortElementSecond = elementSecond[sortBy];
+
+      return sortElementFirst.localeCompare(sortElementSecond);
+    });
+
+    return listSorted;
   }
 
   function getKeys(list) {
@@ -24,7 +35,9 @@
 
   function handleSortChange(event) {
     const key = event.detail;
+
     console.log('received sortBy event:', key);
+    sortBy = key;
   }
 </script>
 
@@ -60,7 +73,7 @@
     </header>
     <main class="main">
       <Picker on:sortBy={(key) => handleSortChange(key)} keys={keys} />
-      <Results list={list} />
+      <Results list={listSorted} />
     </main>
   </div>
 

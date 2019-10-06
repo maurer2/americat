@@ -16,6 +16,18 @@ const list = [
     rank: '46',
     state: 'Louisiana',
   },
+  {
+    rank: '45',
+    state: 'Illinois',
+  },
+  {
+    rank: '44',
+    state: 'Florida',
+  },
+  {
+    rank: '43',
+    state: 'Georgia',
+  },
 ];
 
 const currentApp = new App({
