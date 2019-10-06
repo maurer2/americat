@@ -1,26 +1,57 @@
 <script>
+  // mdules
+  import { onMount } from "svelte";
+
   // components
   import Picker from '../Picker';
   import Results from '../Results';
 
   // props
-  export let list;
+  // export let list;
 
   // reactive vars
+  $: list = [];
   $: listUnsorted = list.slice();
   $: sortBy = 'rank';
   $: keys = getKeys(listUnsorted);
   $: listSorted = getSortedList(listUnsorted, sortBy);
 
+  // life cycle hooks
+  onMount(() => {
+    fetchData().then((data) => {
+        list = data;
+      });
+  });
+
+  function fetchData() {
+    const newList = fetch('data.json')
+      .then((response) => {
+        if (response.ok) {
+          let jsonData;
+
+          try {
+            jsonData = response.json();
+          } catch (error) {
+            return new Error(error);
+          }
+
+          return jsonData;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    return newList;
+  }
+
   // functions
   function getSortedList(list, sortBy) {
-    // const listUnsorted = list.slice();
-
     const listSorted = list.sort((elementFirst, elementSecond) => {
       const sortElementFirst = elementFirst[sortBy];
       const sortElementSecond = elementSecond[sortBy];
 
-      return sortElementFirst.localeCompare(sortElementSecond);
+      return sortElementFirst.localeCompare(sortElementSecond, undefined, {numeric: true});
     });
 
     return listSorted;
@@ -71,14 +102,16 @@
         Americat
       </h1>
     </header>
-    <main class="main">
-      <Picker
-        on:sortBy={(key) => handleSortChange(key)}
-        keys={keys}
-        activeKey={sortBy}
-      />
-      <Results list={listSorted} />
-    </main>
+    {#if list.length > 0}
+      <main class="main">
+        <Picker
+          on:sortBy={(key) => handleSortChange(key)}
+          keys={keys}
+          activeKey={sortBy}
+        />
+        <Results list={listSorted} />
+      </main>
+    {/if}
   </div>
 
 </template>

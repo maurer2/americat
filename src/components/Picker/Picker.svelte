@@ -8,6 +8,11 @@
   let buttonLabels = {
     rank: 'Rank',
     state: 'State',
+    householdsWithCats: 'Households with cats',
+    catPopulationAbsolute: 'Cat population',
+    catPopulationRelative: 'Cat population (relative)',
+    catsPerHouseholdAbsolute: 'Cats per household',
+    catsPerHouseholdRelative: 'Cats per household (relative)',
   }
 
   // local vars
@@ -37,6 +42,7 @@
   }
 
   .title {
+    margin-top: 0;
     font-size: 1rem;
   }
 

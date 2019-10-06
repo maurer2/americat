@@ -4,6 +4,7 @@ const sveltePreprocess = require('svelte-preprocess');
 const scss = require('svelte-preprocess');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -61,6 +62,9 @@ module.exports = {
       template: 'src/index.html',
       hash: true,
     }),
+    new CopyPlugin([
+      { from: 'api/data.json', to: 'data.json' },
+    ]),
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled',
       generateStatsFile: true,
