@@ -1,7 +1,4 @@
 <script>
-  // modules
-  import flatMap from 'lodash.flatMap';
-
   // components
   import Picker from '../Picker';
   import Results from '../Results';
@@ -19,7 +16,7 @@
   }
 
   function getKeys(list) {
-    const keyBag = flatMap(list, (entry) => Object.keys(entry)); 
+    const keyBag = list.flatMap((entry) => Object.keys(entry)); 
     const keySet = keyBag.filter((entry, index, entries) => entries.indexOf(entry) === index);
 
     return keySet;

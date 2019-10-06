@@ -1,4 +1,6 @@
+import 'core-js/es';
 import 'normalize.css';
+
 import App from './components/App';
 
 const list = [
