@@ -38,15 +38,18 @@
 
 <style lang="scss">
   .picker {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
-  .title {
-    margin-top: 0;
-    font-size: 1rem;
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
     background: white;
 
     &--is-active {
@@ -58,9 +61,6 @@
 
 <template lang="html">
   <div class="picker">
-    <h2 class="title">
-      Sort by
-    </h2>
     <div class="button-group">
       {#each keys as key}
         <button

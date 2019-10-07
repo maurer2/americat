@@ -72,27 +72,36 @@
   }
 </script>
 
-<style global lang="scss">
+<style lang="scss">
   $test: black;
 
-  html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  .wrapper {
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    grid-template-areas:
+      "header"
+      "main"
+    ;
     color: $test;
   }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    grid-area: header;
+    background: white;
+  }
+
+  .title {
+    margin: 1rem;
+  }
+
+  .main {
+    grid-area: main;
+    padding: 1rem;
+  }
+
 </style>
 
 <template lang="html">
@@ -101,14 +110,16 @@
       <h1 class="title">
         Americat
       </h1>
-    </header>
-    {#if list.length > 0}
-      <main class="main">
+      {#if list.length > 0}
         <Picker
           on:sortBy={(key) => handleSortChange(key)}
           keys={keys}
           activeKey={sortBy}
         />
+      {/if}
+    </header>
+    {#if list.length > 0}
+      <main class="main">
         <Results list={listSorted} />
       </main>
     {/if}
