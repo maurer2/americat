@@ -79,12 +79,7 @@
 </script>
 
 <style lang="scss">
-  $test: black;
-
-  // usa colors
-  $blue: #3C3B6E;
-  $white: #FFFFFF;
-  $red: #B22234;
+  @import './src/variables.scss';
 
   .wrapper {
     display: grid;

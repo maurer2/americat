@@ -3,10 +3,7 @@
 </script>
 
 <style lang="scss">
-  // usa colors
-  $blue: #3C3B6E;
-  $white: #FFFFFF;
-  $red: #B22234;
+  @import './src/variables.scss';
 
   .header {
     position: sticky;

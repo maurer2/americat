@@ -25,7 +25,9 @@ module.exports = {
             hotReload: true,
             preprocess: [
               sveltePreprocess({}),
-              scss([]),
+              scss({
+                // data: '@import ".variables.scss";',
+              }),
             ],
           },
         },
