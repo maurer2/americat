@@ -23,28 +23,6 @@
       });
   });
 
-  function fetchData() {
-    const newList = fetch('data.json')
-      .then((response) => {
-        if (response.ok) {
-          let jsonData;
-
-          try {
-            jsonData = response.json();
-          } catch (error) {
-            return new Error(error);
-          }
-
-          return jsonData;
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-
-    return newList;
-  }
-
   // functions
   function getSortedList(list, sortBy) {
     const listSorted = list.sort((elementFirst, elementSecond) => {
@@ -70,10 +48,42 @@
     console.log('received sortBy event:', key);
     sortBy = key;
   }
+
+  function fetchData() {
+    const newList = fetch('data.json')
+      .then((response) => {
+        if (response.ok) {
+          let jsonData;
+
+          try {
+            jsonData = response.json();
+          } catch (error) {
+            return new Error(error);
+          }
+
+          return jsonData;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    return newList;
+  }
+
+  function transformData() {
+
+  }
+
 </script>
 
 <style lang="scss">
   $test: black;
+
+  // usa colors
+  $blue: #3C3B6E;
+  $white: #FFFFFF;
+  $red: #B22234;
 
   .wrapper {
     display: grid;
@@ -91,7 +101,7 @@
     position: sticky;
     top: 0;
     grid-area: header;
-    background: white;
+    background: $blue;
 
     &:after {
       content: '';
@@ -100,12 +110,16 @@
       top: 100%;
       right: 0;
       height: 1rem;
-      background: linear-gradient(to bottom, rgba(white, 1) 0, rgba(white, 0) 100%);
+      background: linear-gradient(to bottom, rgba(white, 1) 0%, rgba(white, 0) 100%);
     }
   }
 
   .title {
     margin: 1rem;
+    font-family: 'USA', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: $white;
   }
 
   .main {

@@ -47,6 +47,7 @@
   }
 
   .button {
+    padding: 0.25rem;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;

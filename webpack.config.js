@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const sveltePreprocess = require('svelte-preprocess');
 const scss = require('svelte-preprocess');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const CopyPlugin = require('copy-webpack-plugin');
 
@@ -53,10 +53,22 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(woff)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: '/',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'src/index.html',
