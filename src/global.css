@@ -1,6 +1,10 @@
 @font-face {
   font-family: "USA";
-  src: url("font.woff") format("woff");
+  src:
+    url("font.woff2") format("woff2"),
+    url("font.woff") format("woff")
+  ;
+  font-display: fallback;
 }
 
 html {

@@ -1,8 +1,9 @@
 <script>
-  // mdules
+  // modules
   import { onMount } from "svelte";
 
   // components
+  import Header from '../Header';
   import Picker from '../Picker';
   import Results from '../Results';
 
@@ -96,31 +97,6 @@
     overflow: visible;
     color: $test;
   }
-  
-  .header {
-    position: sticky;
-    top: 0;
-    grid-area: header;
-    background: $blue;
-
-    &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 100%;
-      right: 0;
-      height: 1rem;
-      background: linear-gradient(to bottom, rgba(white, 1) 0%, rgba(white, 0) 100%);
-    }
-  }
-
-  .title {
-    margin: 1rem;
-    font-family: 'USA', Arial, sans-serif;
-    font-weight: normal;
-    font-size: 2.5rem;
-    color: $white;
-  }
 
   .main {
     grid-area: main;
@@ -131,18 +107,17 @@
 
 <template lang="html">
   <div class="wrapper">
-    <header class="header">
-      <h1 class="title">
-        Americat
-      </h1>
-      {#if list.length > 0}
-        <Picker
-          on:sortBy={(key) => handleSortChange(key)}
-          keys={keys}
-          activeKey={sortBy}
-        />
-      {/if}
-    </header>
+    <Header>
+      <slot>
+        {#if list.length > 0}
+          <Picker
+            on:sortBy={(key) => handleSortChange(key)}
+            keys={keys}
+            activeKey={sortBy}
+          />
+        {/if}
+      </slot>
+    </Header>
     {#if list.length > 0}
       <main class="main">
         <Results list={listSorted} />
