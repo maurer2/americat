@@ -17,10 +17,22 @@
   $: keys = getKeys(listUnsorted);
   $: listSorted = getSortedList(listUnsorted, sortBy);
 
+  // vars
+  const url = 'data.json';
+  const visibleFields = [
+    'rank',
+    'state',
+    'householdsWithCats',
+    'catPopulationAbsolute',
+    'catsPerHouseholdAbsolute'
+  ];
+
   // life cycle hooks
   onMount(() => {
-    fetchData().then((data) => {
-        list = data;
+    fetchData(url).then((data) => {
+        const transformedData = transformData(data);
+        
+        list = transformedData;
       });
   });
 
@@ -50,8 +62,8 @@
     sortBy = key;
   }
 
-  function fetchData() {
-    const newList = fetch('data.json')
+  function fetchData(url) {
+    const newList = fetch(url)
       .then((response) => {
         if (response.ok) {
           let jsonData;
@@ -72,8 +84,23 @@
     return newList;
   }
 
-  function transformData() {
+  function transformData(rawData) {
+    const transformedData = rawData.map((entry) => {
+      const entryWithSelectedKeys = Object.keys(entry).reduce((total, current) => {
+        const isVisible = visibleFields.includes(current);
+        let newTotal = total;
+        
+        if (isVisible) {
+          newTotal[current] = entry[current];
+        }
 
+        return newTotal
+      }, {});
+
+      return entryWithSelectedKeys;
+    });
+
+    return transformedData;
   }
 
 </script>
