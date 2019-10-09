@@ -130,15 +130,13 @@
 <template lang="html">
   <div class="wrapper">
     <Header>
-      <slot>
-        {#if list.length > 0}
-          <Picker
-            on:sortBy={(key) => handleSortChange(key)}
-            keys={keys}
-            activeKey={sortBy}
-          />
-        {/if}
-      </slot>
+      {#if list.length > 0}
+        <Picker
+          on:sortBy={(key) => handleSortChange(key)}
+          keys={keys}
+          activeKey={sortBy}
+        />
+      {/if}
     </Header>
     {#if list.length > 0}
       <main class="main">
