@@ -20,10 +20,6 @@
 
   // functions
   function handleButtonClick(key) {
-    // svelte2
-    // this.fire('sortBy', { key });
-
-    // svelte 3
     dispatch('sortBy', key);
   }
 
@@ -37,24 +33,53 @@
 </script>
 
 <style lang="scss">
-  .picker {
-    margin-bottom: 0;
-  }
+  @import './src/variables.scss';
 
-  .button-group {
+  .picker {
+    position: relative; // osx focus ring above fade-line
     display: flex;
+    margin-bottom: 0;
     flex-wrap: wrap;
+    z-index: 1;
   }
 
   .button {
-    padding: 0.25rem;
+    display: flex;
+    padding: 0.5rem;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
-    background: white;
+    flex-basis: 33%;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    border: 1px solid $blue;
+    color: $blue;
+
+    @media only screen and (min-width: 35rem) {
+      flex-basis: 0;
+    }
 
     &--is-active {
-      color: red;
+      position: relative; // new stacking context to have osx focus ring on top of other buttons
+      background: $red;
+      color: $white;
+    }
+
+    .icon {
+      width: 1rem;
+      height: 1rem;
+      flex-shrink: 0;
+      fill: currentColor;
+      visibility: hidden;
+
+      &--is-active {
+        visibility: visible;
+      }
+    }
+
+    .text {
+      padding: 0 0.5rem;
+      flex-grow: 1; // force stars to edges
     }
   }
 
@@ -62,16 +87,22 @@
 
 <template lang="html">
   <div class="picker">
-    <div class="button-group">
-      {#each keys as key}
-        <button
-          class="button {key === activeKey ? 'button--is-active' : ''}"
-          key={key}
-          on:click|stopPropagation={() => handleButtonClick(key)}
-        >
+    {#each keys as key}
+      <button
+        class="button {key === activeKey ? 'button--is-active' : ''}"
+        key={key}
+        on:click|stopPropagation={() => handleButtonClick(key)}
+      >
+        <svg class="icon {key === activeKey ? 'icon--is-active' : ''} " viewbox="0 0 260 245">
+          <path d="m55,237 74-228 74,228L9,96h240"/>
+        </svg>
+        <span class="text">
           {getButtonLabel(key)}
-        </button>
-      {/each}
-    </div>
+        </span>
+        <svg class="icon {key === activeKey ? 'icon--is-active' : ''} " viewbox="0 0 260 245">
+          <path d="m55,237 74-228 74,228L9,96h240"/>
+        </svg>
+      </button>
+    {/each}
   </div>
 </template>
