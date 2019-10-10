@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const sveltePreprocess = require('svelte-preprocess');
 const scss = require('svelte-preprocess');
+const postcss = require('svelte-preprocess');
 // const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const CopyPlugin = require('copy-webpack-plugin');
@@ -24,10 +25,13 @@ module.exports = {
             emitCss: true,
             hotReload: true,
             preprocess: [
-              sveltePreprocess({}),
+              sveltePreprocess({
+                postcss: true,
+              }),
               scss({
                 // data: '@import ".variables.scss";',
               }),
+              postcss({}),
             ],
           },
         },
