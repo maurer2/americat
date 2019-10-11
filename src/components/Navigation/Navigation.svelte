@@ -35,10 +35,9 @@
 <style lang="scss">
   @import './src/variables.scss';
 
-  .picker {
+  .navigation {
     position: relative; // osx focus ring above fade-line
     display: flex;
-    margin-bottom: 0;
     flex-wrap: wrap;
     z-index: 1;
   }
@@ -48,16 +47,16 @@
     padding: 0.5rem;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 33%;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
+    border: 0;
     appearance: none;
-    border: 1px solid $blue;
     color: $blue;
+    outline: 0;
+    border-bottom: 4px solid $blue;
 
-    @media only screen and (min-width: 35rem) {
-      flex-basis: 0;
-    }
+    @media only screen and (min-width: 35rem) {}
 
     &--is-active {
       position: relative; // new stacking context to have osx focus ring on top of other buttons
@@ -86,7 +85,7 @@
 </style>
 
 <template lang="html">
-  <div class="picker">
+  <div class="navigation">
     {#each keys as key}
       <button
         class="button {key === activeKey ? 'button--is-active' : ''}"

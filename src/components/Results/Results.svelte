@@ -4,6 +4,8 @@
 </script>
 
 <style lang="scss">
+  @import './src/variables.scss';
+
   .list {
     margin: 0;
     padding: 0;
@@ -12,12 +14,15 @@
 
   .entry {
     display: flex;
-    padding: 0;
+    padding: 1rem;
     flex-direction: column;
     list-style: none;
+    background: $red;
+    color: $white;
 
-    & + & {
-      margin-top: 1rem;
+    &:nth-child(even) {
+      background: $white;
+      color: $red;
     }
   }
 

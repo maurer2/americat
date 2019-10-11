@@ -4,7 +4,7 @@
 
   // components
   import Header from '../Header';
-  import Picker from '../Picker';
+  import Navigation from '../Navigation';
   import Results from '../Results';
 
   // props
@@ -115,14 +115,13 @@
     grid-template-areas:
       "header"
       "main"
+      "footer"
     ;
-    overflow: visible;
     color: $test;
   }
 
   .main {
     grid-area: main;
-    padding: 1rem;
   }
 
 </style>
@@ -131,7 +130,7 @@
   <div class="wrapper">
     <Header>
       {#if list.length > 0}
-        <Picker
+        <Navigation
           on:sortBy={(key) => handleSortChange(key)}
           keys={keys}
           activeKey={sortBy}

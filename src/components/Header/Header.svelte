@@ -10,16 +10,6 @@
     top: 0;
     grid-area: header;
     background: $blue;
-
-    &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 100%;
-      right: 0;
-      height: 1rem;
-      background: linear-gradient(to bottom, rgba(white, 1) 0%, rgba(white, 0) 100%);
-    }
   }
 
   .title {
