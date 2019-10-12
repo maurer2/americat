@@ -64,7 +64,7 @@ typings/
 .vscode
 
 # python
-python-env/
+.venv/
 
 # build files
 dist/
