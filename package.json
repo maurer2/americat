@@ -18,7 +18,8 @@
     "build:analyze": "yarn build && webpack-bundle-analyzer --port 4200 './public/stats.json'",
     "watch": "webpack --progress --mode development --watch",
     "start": "webpack-dev-server --config webpack.config.js",
-    "lint": "eslint 'src/**/*.svelte'"
+    "lint": "eslint 'src/**/*.svelte'",
+    "slides:start": "cd slides && yarn start"
   },
   "dependencies": {
     "@babel/cli": "^7.6.2",

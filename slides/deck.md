@@ -6,36 +6,48 @@
 
 * Reactive frontend framework
 * Component based
-* Supports PostCSS & SCSS
-* Out of the box scoped CSS (similar to Vue and styled-jsx in React)
+* Doesn't use a VDOM implementation
+* Heavily influenced by VueJS
+* Last major release in April 2019
+
+---
+
+## Features
+
+* Uses single file components
+* Components provide style encapsulation by default
+* Support for PostCSS & SCSS
 * Can be used with Webpack, Rollup or Parcel
-* No bundler-free version as of v3 (unlike Vue)
-* no CLI like CRA or Vue CLI as of v3
-* tagline "Cybernetically enhanced web apps" 🤔
-* Supports SSR via additional framework Sapper (similar to VueJs and Nuxt)
-* Supports Pug (kinda)
+* No runtime-environment necessary
+* Fast and low bundle size
+* Partial support for Pug
+* SSR via additional framework Sapper
+* Quite fast
 
 ---
 
-## What is different about Svelte compared to React or Vue?
+## Disadvantages
 
-* No virtual DOM
-* Precompiled components
-* Uses JS labels for reactivity (supported since ES1)
+* Developer tools are quite barebones
+* Typescript support poor
 * No support for JSX or TSX
+* Only partial support for Pug
+* No bundler-free version as of v3
+* no CLI like CRA or Vue CLI as of v3
+* Lack of ports of popular third party libraries
+* A lot of outdated tutorials
+* No support for CSS-in-JS frameworks like SC
 
 ---
 
-## How does reactivity work in Svelte?
+## Ideal use cases
 
-* Dummy
+* Low powered devices
+* Low bandwidth connections
 
 ---
 
-## Svelte components
-
-<!-- .slide: style="text-align: left;"> -->
-Each Svelte component consists of a javascript-, style- and one or more template-parts
+## Anatomy of a Svelte component
 
 ```
 <script>
@@ -53,6 +65,8 @@ Each Svelte component consists of a javascript-, style- and one or more template
 
 ---
 
+## Javascript
+
 ```javascript
 <script>
   // imports
@@ -65,15 +79,17 @@ Each Svelte component consists of a javascript-, style- and one or more template
   }
   // reactive var
   $: value = getValue('123');
+  $: value2 = data.every((entry) => entry.id !== '123');
   // non reactive var
   const salutation = 'Howdy';
 </script>
 
 ---
 
+## CSS
+
 ```css
 <style>
-  <!-- gets compiled to .wrapper.svelte-<randomHash> -->
   .wrapper {
     margin: 0 auto;
     border: 1px solid var(--gray);
@@ -81,7 +97,18 @@ Each Svelte component consists of a javascript-, style- and one or more template
 </style>
 ```
 
+```css
+<style>
+  .wrapper.svelte-123456 {
+    margin: 0 auto;
+    border: 1px solid var(--gray);
+  }
+</style>
+```
+
 ---
+
+## HTML
 
 ```html
 <div class="parent">
@@ -91,28 +118,16 @@ Each Svelte component consists of a javascript-, style- and one or more template
     <h2>{salutation}</h2>
   </ChildComponent>
 </div>
-
-<div class="child">
-  <h1>Title</h1>
-  <slot />
-</div>
 ```
 
----
-
-## Communication between Components
-
-* Parent to child via props
-* Child to parent via events
-* Child to parent via bind
-* Event emitter
-* Context-API
-* Store
-
----
-
-## Compose templates
-* Slots (similar to slots in Vue and props.children in React)
+```html
+<div class="child">
+  <h1>Title {value}</h1>
+  <slot>
+    Optional default content
+  </slot>
+</div>
+```
 
 ---
 
@@ -124,17 +139,21 @@ Each Svelte component consists of a javascript-, style- and one or more template
 
 ```
 <{#if id === 25}
-	<p>Test</p>
+  <p>Test</p>
 {/if}
+
 <{#if id === 25}
   <p>Test</p>
 {:else}
-  <p>Tset</p>
+  <p>Test 2</p>
 {/if}
+
 <{#if id === 25}
   <p>Test</p>
-:else if id === 52}
-  <p>Tset</p>
+{:else if id === 52}
+  <p>Test 2</p>
+{:else}
+  <p>Test 3</p>
 {/if}
 ```
 
@@ -144,16 +163,16 @@ Each Svelte component consists of a javascript-, style- and one or more template
 
 ```
 <ul>
-  {#each list as listItem, i}
+  {#each list as listItem, i (listItem.id)}
     <li>{i} {listItem}</li>
   {/each}
 </ul>
 
 <ul>
-  {#each list as listItem, i}
+  {#each list as listItem, i (listItem.id)}
     <li>{i} {listItem}</li>
   {:else}
-    <p>Empty</p>
+    No entries
   {/each}
 </ul>
 ```
@@ -164,7 +183,7 @@ Each Svelte component consists of a javascript-, style- and one or more template
 
 ```
 <a href="/" on:click={func}>
-	Text
+  Text
 </a>
 
 <a
@@ -177,43 +196,46 @@ Each Svelte component consists of a javascript-, style- and one or more template
 
 ---
 
-```
+## Event handling between components
+
+```html
 <div class="parent">
   <!-- Handle child event in parent -->
-  <ChildComponent on:eventname="funcInParent" />
+  <ChildComponent on:childeventname="funcInParent" />
 
   <!-- Relay child event to grandparent -->
-  <ChildComponent on:eventname />
+  <ChildComponent on:childeventname />
 </div>
+```
 
+```html
+<script>
+  const dispatch = createEventDispatcher();
+
+  function handleClick() {
+    dispatch('childeventname');
+  }
+</script>
 <div class="child">
-  <h1>Title</h1>
+  <a href="" on:click|preventDefault={handleButtonClick}>Test</a>
 </div>
 ```
 
 ---
 
-## Other stuff
-* Life cycle methods
+## Communication between Components
+
+* Parent to child via props
+* Child to parent via events or optional two way data binding
+* Context-API
 * Store
 
 ---
 
-## Good parts
-
-* Fast
-* Scoped styling
-* Easy to pick up when coming from Vue
-* Reactivity quite easy
-* Declarative event modifier
+## Other features
+* Life cycle methods (onMount, beforeUpdate, afterUpdate, onDestroy etc.)
+* Built in animation and transition support
+* Tags for promise-states (pending, fulfilled and rejected) 
+* Store
 
 ---
-
-## Bad parts
-
-* Getting it running is kinda tedious (no CLI)
-* Small community
-* A lot of outdated info due to fast evolving framework
-* Bus factor (few active core members)
-* Tooling is kind meh
-* No support for CSS-in-JS frameworks like SC
