@@ -112,20 +112,21 @@
 
 ```html
 <div class="parent">
-  <ChildComponent value={ value } />
-
-  <ChildComponent value={ value } />
-    <h2>{salutation}</h2>
-  </ChildComponent>
+  <ChildComponent value={ value } text="text" />
+  <ChildComponent value={ x === 25 } />
+  
+  <h1 class="className">
+    Title
+  </h1>
+  <label for="field">Label</label>
 </div>
 ```
 
 ```html
-<div class="child">
-  <h1>Title {value}</h1>
-  <slot>
-    Optional default content
-  </slot>
+<template lang="html">
+  <div class="parent">
+    .....
+  </div>
 </div>
 ```
 
@@ -179,20 +180,71 @@
 
 ---
 
+## Slots for reusability
+
+```html
+<div class="v-card">
+  <slot name="title">>
+    <h1>Default title</h1>
+  </slot>
+  <slot name="hobby">>
+    Musicals
+  </slot>
+</div>
+```
+
+```html
+<script>
+  import VCard from './VCard.svelte';
+</script>
+
+<VCard>
+  <div slot="title">
+    <h2>Real title</h2>
+  <div>
+<VCard>
+```
+
+---
+
+## Slots for composition
+
+```html
+<div class="parent">
+  <ChildComponent value={ value } />
+
+  <ChildComponent value={ value } />
+    <h2>{salutation}</h2>
+  </ChildComponent>
+</div>
+```
+
+```html
+<div class="child">
+  <h1>Title {value}</h1>
+  <slot>
+    Optional default content
+  </slot>
+</div>
+```
+
+---
+
 ## Events
 
 ```
-<a href="/" on:click={func}>
+<a href="/" on:click={doSomething}>
   Text
 </a>
 
 <a
   href="/"
-  on:click|once|preventDefault|stopPropagation={func}
+  on:click|once|preventDefault|stopPropagation={doSomething}
 >
 	Text
 </a>
 ```
+
 
 ---
 
@@ -225,17 +277,38 @@
 
 ## Communication between Components
 
-* Parent to child via props
-* Child to parent via events or optional two way data binding
+* Props
+* Events
+* Two way data binding 
 * Context-API
 * Store
+
+---
+
+## Declarative promise handling
+
+```html
+<script>
+  let someAsyncOperation = new Promise((resolve, reject) => {
+    .....
+  });
+</script>
+<div class="component">
+  {#await someAsyncOperation}
+    <Spinner />
+  {:then someAsyncOperationReturnValue}
+    <MainComponent data={ someAsyncOperationReturnValue } />
+  {:catch error}
+    <span class="error">dang it - { error }</span>
+  {/await}
+</div>
+```
 
 ---
 
 ## Other features
 * Life cycle methods (onMount, beforeUpdate, afterUpdate, onDestroy etc.)
 * Built in animation and transition support
-* Tags for promise-states (pending, fulfilled and rejected) 
 * Store
 
 ---
