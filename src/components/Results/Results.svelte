@@ -50,10 +50,6 @@
     {#each list as entry, i}
       <li class="entry" key="{i}">
         <dl class="detail">
-          <dt class="key">Rank</dt>
-          <dt class="value">{entry.rank}</dt>
-        </dl>
-        <dl class="detail">
           <dt class="key">State</dt>
           <dt class="value">{entry.state}</dt>
         </dl>

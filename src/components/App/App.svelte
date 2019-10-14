@@ -6,9 +6,7 @@
   import Header from '../Header';
   import Navigation from '../Navigation';
   import Results from '../Results';
-
-  // props
-  // export let list;
+  import Loader from '../Loader';
 
   // reactive vars
   $: list = [];
@@ -22,19 +20,24 @@
   const visibleFields = [
     'rank',
     'state',
-    'householdsWithCats',
+    // 'householdsWithCats',
     'catPopulationAbsolute',
     'catsPerHouseholdAbsolute'
   ];
+  let dataFetching = new Promise((resolve, reject) => {
+    return fetchData(url)
+      .then((data) => {
+        list = transformData(data);
 
-  // life cycle hooks
-  onMount(() => {
-    fetchData(url).then((data) => {
-        const transformedData = transformData(data);
-        
-        list = transformedData;
+        // show spinner
+        setTimeout(() => {
+          resolve(list);
+        }, 1500);
       });
   });
+
+  // life cycle hooks
+  onMount(() => {});
 
   // functions
   function getSortedList(list, sortBy) {
@@ -117,13 +120,11 @@
       "main"
       "footer"
     ;
-    color: $test;
   }
 
   .main {
     grid-area: main;
   }
-
 </style>
 
 <template lang="html">
@@ -137,11 +138,14 @@
         />
       {/if}
     </Header>
-    {#if list.length > 0}
+    {#await dataFetching}
+      <Loader />
+    {:then list}
       <main class="main">
         <Results list={listSorted} />
       </main>
-    {/if}
+    {:catch error}
+      Error
+    {/await}
   </div>
-
 </template>

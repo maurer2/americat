@@ -6,9 +6,9 @@
   export let activeKey;
 
   let buttonLabels = {
-    rank: 'Rank',
+    rank: 'Households with cats',
     state: 'State',
-    householdsWithCats: 'Households with cats',
+    // householdsWithCats: 'Households with cats',
     catPopulationAbsolute: 'Cat population',
     catPopulationRelative: 'Cat population (relative)',
     catsPerHouseholdAbsolute: 'Cats per household',
@@ -36,10 +36,8 @@
   @import './src/variables.scss';
 
   .navigation {
-    position: relative; // osx focus ring above fade-line
     display: flex;
     flex-wrap: wrap;
-    z-index: 1;
   }
 
   .button {

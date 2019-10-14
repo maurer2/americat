@@ -71,6 +71,16 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(svg)$/,
+        use: [
+          {
+            // loader: 'svg-inline-loader',
+            loader: 'svg-url-loader',
+            options: {},
+          },
+        ],
+      },
     ],
   },
   plugins: [
