@@ -1,5 +1,5 @@
 <script>
-  // modules
+  // imports
   import { onMount } from "svelte";
 
   // components
@@ -8,17 +8,11 @@
   import Results from '../Results';
   import Loader from '../Loader';
   
-  // reactive vars
-  $: listSorted = getSortedList(list, sortBy);
-  $: keys = getKeys(list);
-
   // vars
-  let list = [].slice();
+  let listFetched = fetchData(url);
   let sortBy = 'rank';
-  let dataFetching = fetchData(url)
-    .then((data) => {
-      list = transformData(data);
-    });
+  let listSorted = [];
+  let keys = [];
 
   const url = 'data.json';
   const visibleFields = [
@@ -28,6 +22,30 @@
     'catPopulationAbsolute',
     'catsPerHouseholdAbsolute'
   ];
+
+  // reactive vars
+  $: {
+    listSorted = listFetched
+      .then((listUnfiltered) => {
+        const transformedList = transformData(listUnfiltered);
+        const sortedList = getSortedList(transformedList, sortBy);
+
+        return sortedList;
+      })
+      .catch((error) => {
+        return error;
+      });
+
+    keys = listSorted
+      .then((list) => {
+        const extractedKeys = getKeys(list);
+
+        return extractedKeys;
+      })
+      .catch((error) => {
+        return error;
+      });
+  };
 
   // life cycle hooks
   onMount(() => {});
@@ -124,22 +142,24 @@
 <template lang="html">
   <div class="wrapper">
     <Header>
-      {#if list.length > 0}
-        <Navigation
-          on:sortBy={(key) => handleSortChange(key)}
-          keys={keys}
-          activeKey={sortBy}
-        />
-      {/if}
+      {#await keys then keys}
+        {#if keys.length > 0}
+          <Navigation
+            on:sortBy={(key) => handleSortChange(key)}
+            keys={keys}
+            activeKey={sortBy}
+          />
+        {/if}
+      {/await}
     </Header>
-    {#await dataFetching}
+    {#await listSorted}
       <Loader />
-    {:then list}
+    {:then listSorted}
       <main class="main">
         <Results list={listSorted} />
       </main>
     {:catch error}
-      Error
+      Error has occured
     {/await}
   </div>
 </template>
