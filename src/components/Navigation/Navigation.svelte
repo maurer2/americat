@@ -54,7 +54,7 @@
     outline: 0;
     border-bottom: 4px solid $blue;
 
-    @media only screen and (min-width: 35rem) {}
+    // @media only screen and (min-width: 35rem) {}
 
     &--is-active {
       position: relative; // new stacking context to have osx focus ring on top of other buttons

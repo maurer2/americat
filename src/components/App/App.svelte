@@ -7,15 +7,19 @@
   import Navigation from '../Navigation';
   import Results from '../Results';
   import Loader from '../Loader';
-
+  
   // reactive vars
-  $: list = [];
-  $: listUnsorted = list.slice();
-  $: sortBy = 'rank';
-  $: keys = getKeys(listUnsorted);
-  $: listSorted = getSortedList(listUnsorted, sortBy);
+  $: listSorted = getSortedList(list, sortBy);
+  $: keys = getKeys(list);
 
   // vars
+  let list = [].slice();
+  let sortBy = 'rank';
+  let dataFetching = fetchData(url)
+    .then((data) => {
+      list = transformData(data);
+    });
+
   const url = 'data.json';
   const visibleFields = [
     'rank',
@@ -24,17 +28,6 @@
     'catPopulationAbsolute',
     'catsPerHouseholdAbsolute'
   ];
-  let dataFetching = new Promise((resolve, reject) => {
-    return fetchData(url)
-      .then((data) => {
-        list = transformData(data);
-
-        // show spinner
-        setTimeout(() => {
-          resolve(list);
-        }, 1500);
-      });
-  });
 
   // life cycle hooks
   onMount(() => {});
@@ -60,8 +53,7 @@
 
   function handleSortChange(event) {
     const key = event.detail;
-
-    console.log('received sortBy event:', key);
+    
     sortBy = key;
   }
 
@@ -76,34 +68,36 @@
           } catch (error) {
             return new Error(error);
           }
-
+          
           return jsonData;
         }
       })
       .catch((error) => {
         console.log(error);
+        return error;
       });
 
     return newList;
   }
 
   function transformData(rawData) {
-    const transformedData = rawData.map((entry) => {
-      const entryWithSelectedKeys = Object.keys(entry).reduce((total, current) => {
-        const isVisible = visibleFields.includes(current);
-        let newTotal = total;
-        
-        if (isVisible) {
-          newTotal[current] = entry[current];
-        }
-
-        return newTotal
-      }, {});
-
-      return entryWithSelectedKeys;
-    });
+    const transformedData = rawData.map((entry) => getEntryWithVisibleKeys(entry));
 
     return transformedData;
+  }
+
+  function getEntryWithVisibleKeys(entry) {
+    const entryWithSelectedKeys = Object.keys(entry).reduce((total, current) => {
+        const isVisible = visibleFields.includes(current);
+        
+        if (isVisible) {
+          total[current] = entry[current];
+        }
+
+        return total
+      }, {});
+
+    return entryWithSelectedKeys
   }
 
 </script>

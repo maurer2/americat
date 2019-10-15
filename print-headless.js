@@ -10,8 +10,10 @@ const puppeteer = require('puppeteer');
     format: 'A4',
     landscape: true,
     printBackground: true,
-    // width: '297mm',
-    // height: '210mm',
+    margin: 0,
+    preferCSSPageSize: true,
+    width: '297mm',
+    height: '210mm',
   });
 
   await browser.close();
