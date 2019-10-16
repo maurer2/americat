@@ -18,7 +18,7 @@
   const visibleFields = [
     'rank',
     'state',
-    // 'householdsWithCats',
+    'householdsWithCats',
     'catPopulationAbsolute',
     'catsPerHouseholdAbsolute',
   ];
@@ -49,7 +49,7 @@
   // functions
   function handleSortChange(event) {
     const key = event.detail;
-  
+
     sortBy = key;
   }
 
@@ -64,7 +64,7 @@
           } catch (error) {
             return new Error(error);
           }
-  
+
           return jsonData;
         }
       })
@@ -152,7 +152,7 @@
       <Loader />
     {:then listSorted}
       <main class="main">
-        <Results list={listSorted} />
+        <Results list={listSorted} activeKey={sortBy} />
       </main>
     {:catch error}
       Error has occured

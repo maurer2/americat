@@ -1,6 +1,9 @@
 <script>
   // props
   export let list;
+  export let activeKey;
+
+  console.log(list);
 </script>
 
 <style lang="scss">
@@ -32,6 +35,7 @@
   }
 
   .key {
+    display: flex; // workaround whitespaces
     font-weight: bold;
 
     &::after {
@@ -39,19 +43,25 @@
       color: bold;
     }
   }
-  
+
   .value {
+    display: flex; // workaround whitespaces
     margin-left: 0.25rem;
   }
 </style>
 
 <template lang="html">
   <ul class="list">
-    {#each list as entry, i}
-      <li class="entry" key="{i}">
+    {#each list as entry, i (entry.state)}
+      <li class="entry">
         <dl class="detail">
-          <dt class="key">State</dt>
-          <dt class="value">{entry.state}</dt>
+          <dt class="key">
+            {entry.state.trim()}
+          </dt>
+          <dt class="value">
+            <span class="number">{entry[activeKey]}</span>
+            <span class="unit">{(activeKey === 'householdsWithCats') ? '%' : ''}</span>
+          </dt>
         </dl>
       </li>
     {/each}

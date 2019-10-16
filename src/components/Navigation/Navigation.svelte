@@ -6,9 +6,9 @@
   export let activeKey;
 
   let buttonLabels = {
-    rank: 'Households with cats',
+    rank: 'Overall rank',
     state: 'State',
-    // householdsWithCats: 'Households with cats',
+    householdsWithCats: 'Households with cats',
     catPopulationAbsolute: 'Cat population',
     catPopulationRelative: 'Cat population (relative)',
     catsPerHouseholdAbsolute: 'Cats per household',
