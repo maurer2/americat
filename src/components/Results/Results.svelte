@@ -17,8 +17,6 @@
 
   .entry {
     display: flex;
-    padding: 1rem;
-    flex-direction: column;
     list-style: none;
     background: $red;
     color: $white;
@@ -29,9 +27,22 @@
     }
   }
 
+  .postal-code {
+    width: 4rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    background: $blue;
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
   .detail {
     display: flex;
     margin: 0;
+    padding: 1rem;
+    flex-grow: 1;
   }
 
   .key {
@@ -54,9 +65,12 @@
   <ul class="list">
     {#each list as entry, i (entry.state)}
       <li class="entry">
+        <abbr class="postal-code" title={entry.state}>
+          {entry.state.substring(0, 2)} <!-- placeholder -->
+        </abbr>
         <dl class="detail">
           <dt class="key">
-            {entry.state.trim()}
+            {entry.state}
           </dt>
           <dt class="value">
             <span class="number">{entry[activeKey]}</span>
