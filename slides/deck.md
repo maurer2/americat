@@ -5,24 +5,23 @@
 ## What is Svelte?
 
 * Reactive frontend framework
-* Component based
+* Fully component based
 * Doesn't use a VDOM implementation
+* Very fast with a tiny runtime
+* Tries to reuses and repurposes existing syntax
 * Heavily influenced by VueJS
-* Last major release in April 2019
 
 ---
 
 ## Features
 
 * Uses single file components
-* Components provide style encapsulation by default
+* Components provide style encapsulation
 * Support for PostCSS & SCSS
 * Can be used with Webpack, Rollup or Parcel
-* No runtime-environment necessary
-* Fast and low bundle size
 * Partial support for Pug
 * SSR via additional framework Sapper
-* Quite fast
+* Support for Storybook
 
 ---
 
@@ -31,12 +30,10 @@
 * Developer tools are quite barebones
 * Typescript support poor
 * No support for JSX or TSX
-* Only partial support for Pug
-* No bundler-free version as of v3
-* no CLI like CRA or Vue CLI as of v3
-* Lack of ports of popular third party libraries
-* A lot of outdated tutorials
 * No support for CSS-in-JS frameworks like SC
+* No CLI like CRA or Vue CLI as of v3
+* No bundler-free version as of v3
+* A lot of outdated tutorials
 
 ---
 
@@ -51,16 +48,15 @@
 
 ```
 <script>
-  js-stuff
+  js
 </script>
 
 <style>
-  css-stuff
+  css
 </style>
 
-<div>
-  html-stuff
-</div>
+html
+...
 ```
 
 ---
@@ -112,11 +108,16 @@
 
 ```html
 <div class="parent">
-  <ChildComponent value={ value } text="text" />
-  <ChildComponent value={ x === 25 } />
+  <Component></Component>
+
+  <Component/>
+
+  <Component>
+    <ChildComponent/>
+  </Component>
   
   <h1 class="className">
-    Title
+    { title }
   </h1>
   <label for="field">Label</label>
 </div>
@@ -136,20 +137,34 @@
 
 ---
 
+## Attributes and props
+
+```html
+<Component value={ value } text="text" text2=text />
+
+<Component value={ x === 25 } value2="{ !isDefault }" />
+
+<Component { hidden } />
+
+<Component { ...allProps } />
+```
+
+---
+
 ## Control structures
 
 ```
-<{#if id === 25}
+{#if id === 25}
   <p>Test</p>
 {/if}
 
-<{#if id === 25}
+{#if id === 25}
   <p>Test</p>
 {:else}
   <p>Test 2</p>
 {/if}
 
-<{#if id === 25}
+{#if id === 25}
   <p>Test</p>
 {:else if id === 52}
   <p>Test 2</p>
@@ -180,12 +195,12 @@
 
 ---
 
-## Slots for reusability
+## Slots - Reusability
 
 ```html
 <div class="v-card">
   <slot name="title">>
-    <h1>Default title</h1>
+    <h2>Default title</h2>
   </slot>
   <slot name="hobby">>
     Musicals
@@ -207,7 +222,7 @@
 
 ---
 
-## Slots for composition
+## Slots - Composition
 
 ```html
 <div class="parent">
@@ -233,7 +248,10 @@
 ## Events
 
 ```
-<a href="/" on:click={doSomething}>
+<a 
+  href="/"
+  on:click={doSomething}
+>
   Text
 </a>
 
@@ -241,7 +259,7 @@
   href="/"
   on:click|once|preventDefault|stopPropagation={doSomething}
 >
-	Text
+  Text
 </a>
 ```
 
@@ -269,7 +287,7 @@
   }
 </script>
 <div class="child">
-  <a href="" on:click|preventDefault={handleButtonClick}>Test</a>
+  <a href="/" on:click|preventDefault={handleButtonClick}>Test</a>
 </div>
 ```
 
@@ -289,10 +307,11 @@
 
 ```html
 <script>
-  let someAsyncOperation = new Promise((resolve, reject) => {
-    .....
+  const someAsyncOperation = new Promise((resolve, reject) => {
+    setTimeout(() => resolve('12345'), 2500);
   });
 </script>
+
 <div class="component">
   {#await someAsyncOperation}
     <Spinner />
