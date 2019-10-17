@@ -306,9 +306,30 @@
 
 ---
 
+## Declarative transitions and animations
+
+```html
+<div class="component">
+  <h1 transition:fade="{{ duration: 1000 }}">Titel</h1>
+  <h1 in:fade="{{ duration: 500 }}" out:fade="{{ duration: 500 }}">
+    Titel
+  </h1>
+  <h1
+    transition:fade
+    on:introstart="{() => function() }"
+    on:outrostart="{() => function() }"
+    on:introend="{() => function() }"
+    on:outroend="{() => function() }"
+    >
+      Titel
+  </h1>
+</div>
+```
+
+---
+
 ## Other features
 * Life cycle methods (onMount, beforeUpdate, afterUpdate, onDestroy etc.)
-* Built in animation and transition support
 * Store
 
 ---
