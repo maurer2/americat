@@ -2,8 +2,6 @@
   // props
   export let list;
   export let activeKey;
-
-  console.log(list);
 </script>
 
 <style lang="scss">
@@ -28,7 +26,7 @@
   }
 
   .postal-code {
-    width: 4rem;
+    flex-basis : 4rem;
     padding: 1rem;
     text-decoration: none;
     text-align: center;

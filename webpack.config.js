@@ -92,6 +92,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'api/data.json', to: 'data.json' },
+      { from: 'api/postal-codes.json', to: 'postal-codes.json' },
     ]),
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled',
