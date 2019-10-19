@@ -22,10 +22,19 @@
     'catPopulationAbsolute',
     'catsPerHouseholdAbsolute',
   ];
-  const dataFetching = Promise.all([
-    fetchData(urlStateRanking),
-    fetchData(urlPostalCodes),
-  ]);
+
+  const dataFetching = new Promise((resolve) => {
+    const dataSources = Promise.all([
+      fetchData(urlStateRanking),
+      fetchData(urlPostalCodes),
+    ]);
+
+    setTimeout(() => {
+      resolve(dataSources);
+    }, 2500);
+
+    return dataSources;
+  });
 
   // reactive vars
   $: {

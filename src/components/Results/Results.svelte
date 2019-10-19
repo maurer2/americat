@@ -1,5 +1,5 @@
 <script>
-	import { fly } from 'svelte/transition';
+  import { fly } from 'svelte/transition';
 
   // props
   export let list;
@@ -62,7 +62,7 @@
 </style>
 
 <template lang="html">
-  <ul class="list" in:fly="{{x: 5000, duration: 250}}">
+  <ul class="list" in:fly="{{x: 5000, duration: 250, delay: 250}}">
     {#each list as entry, i (entry.state)}
       <li class="entry">
         <abbr class="postal-code" title={entry.state}>

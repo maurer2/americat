@@ -1,5 +1,7 @@
 <script>
+  import { fade } from 'svelte/transition';
   import logo from './logo.svg';
+  
   // props
   export let list;
 </script>
@@ -24,7 +26,7 @@
 </style>
 
 <template lang="html">
-  <div class="loader">
+  <div class="loader" out:fade="{{duration: 250}}">
     <img class="logo" src={ logo } alt="" />
   </div>
 </template>
