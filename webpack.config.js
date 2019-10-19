@@ -91,12 +91,12 @@ module.exports = {
       hash: true,
     }),
     new CopyPlugin([
-      { from: 'api/data.json', to: 'data.json' },
-      { from: 'api/postal-codes.json', to: 'postal-codes.json' },
+      { from: 'api/data.json', to: 'json/states-ranking.json' },
+      { from: 'api/postal-codes.json', to: 'json/postal-codes.json' },
     ]),
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled',
-      generateStatsFile: true,
+      generateStatsFile: false,
       statsOptions: {
         source: false,
       },

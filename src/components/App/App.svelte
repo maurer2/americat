@@ -9,12 +9,12 @@
   import Loader from '../Loader';
   
   // vars
-  const listFetched = fetchData(url);
   let sortBy = 'rank';
-  let listSorted = [];
+  let stateRankingList = [];
   let keys = [];
 
-  const url = 'data.json';
+  const urlStateRanking = 'json/states-ranking.json';
+  const urlPostalCodes = 'json/postal-codes.json';
   const visibleFields = [
     'rank',
     'state',
@@ -22,19 +22,26 @@
     'catPopulationAbsolute',
     'catsPerHouseholdAbsolute',
   ];
+  const dataFetching = Promise.all([
+    fetchData(urlStateRanking),
+    fetchData(urlPostalCodes),
+  ]);
 
   // reactive vars
   $: {
-    listSorted = listFetched
-      .then((listUnfiltered) => {
-        const transformedList = getTransformedData(listUnfiltered);
-        const sortedList = getSortedList(transformedList, sortBy);
+    stateRankingList = dataFetching
+      .then(([stateRankingFetched, postalCodesFetched]) => {
+        const transformedStateRankingList = getTransformedData(stateRankingFetched);
+        const sortedStateRankingList = getSortedList(transformedStateRankingList, sortBy);
 
-        return sortedList;
+        // temp
+        addPostalCodesToRankingList(stateRankingFetched, postalCodesFetched);
+
+        return sortedStateRankingList;
       })
       .catch((error) => error);
 
-    keys = listSorted
+    keys = stateRankingList
       .then((list) => {
         const extractedKeys = getKeys(list);
 
@@ -74,6 +81,19 @@
       });
 
     return newList;
+  }
+
+  function addPostalCodesToRankingList(stateRankingList, postalCodesList) {
+    const mergedList = stateRankingList.map((entry) => {
+      const { state } = entry;
+      const postalCode = Object.keys(postalCodesList).find((postalCode) => postalCodesList[postalCode] === state);
+      const mergedEntry = Object.assign({}, entry, { postalCode });
+
+      return mergedEntry;
+    });
+
+    console.log(mergedList);
+    return mergedList;
   }
 
   function getSortedList(list, sortBy) {
@@ -148,11 +168,11 @@
         {/if}
       {/await}
     </Header>
-    {#await listSorted}
+    {#await stateRankingList}
       <Loader />
-    {:then listSorted}
+    {:then stateRankingList}
       <main class="main">
-        <Results list={listSorted} activeKey={sortBy} />
+        <Results list={stateRankingList} activeKey={sortBy} />
       </main>
     {:catch error}
       Error has occured
