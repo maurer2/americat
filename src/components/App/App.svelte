@@ -168,7 +168,7 @@
         <Results list={stateRankingList} activeKey={sortBy} />
       </main>
     {:catch error}
-      Error has occured
+      An error has occured
     {/await}
   </div>
 </template>

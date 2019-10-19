@@ -10,6 +10,7 @@
     top: 0;
     grid-area: header;
     background: $blue;
+    z-index: 1;
   }
 
   .title {
