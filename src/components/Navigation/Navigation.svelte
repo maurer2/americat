@@ -5,7 +5,9 @@
   export let keys;
   export let activeKey;
 
-  let buttonLabels = {
+  // local vars
+  const dispatch = createEventDispatcher();
+  const buttonLabels = {
     rank: 'Overall rank',
     state: 'State',
     householdsWithCats: 'Households with cats',
@@ -13,10 +15,8 @@
     catPopulationRelative: 'Cat population (relative)',
     catsPerHouseholdAbsolute: 'Cats per household',
     catsPerHouseholdRelative: 'Cats per household (relative)',
+    postalCode: 'Postal code',
   }
-
-  // local vars
-  const dispatch = createEventDispatcher();
 
   // functions
   function handleButtonClick(key) {

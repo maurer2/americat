@@ -32,21 +32,15 @@
     stateRankingList = dataFetching
       .then(([stateRankingFetched, postalCodesFetched]) => {
         const transformedStateRankingList = getTransformedData(stateRankingFetched);
-        const sortedStateRankingList = getSortedList(transformedStateRankingList, sortBy);
+        const mergedList = getStateRankingWithPostalCodes(transformedStateRankingList, postalCodesFetched);
+        const sortedList = getSortedList(mergedList, sortBy);
 
-        // temp
-        addPostalCodesToRankingList(stateRankingFetched, postalCodesFetched);
-
-        return sortedStateRankingList;
+        return sortedList;
       })
       .catch((error) => error);
 
     keys = stateRankingList
-      .then((list) => {
-        const extractedKeys = getKeys(list);
-
-        return extractedKeys;
-      })
+      .then((list) => getKeys(list))
       .catch((error) => error);
   }
 
@@ -83,21 +77,20 @@
     return newList;
   }
 
-  function addPostalCodesToRankingList(stateRankingList, postalCodesList) {
+  function getStateRankingWithPostalCodes(stateRankingList, postalCodesList) {
     const mergedList = stateRankingList.map((entry) => {
       const { state } = entry;
-      const postalCode = Object.keys(postalCodesList).find((postalCode) => postalCodesList[postalCode] === state);
+      const postalCode = Object.keys(postalCodesList).find(postalCode => postalCodesList[postalCode] === state);
       const mergedEntry = Object.assign({}, entry, { postalCode });
 
       return mergedEntry;
     });
 
-    console.log(mergedList);
     return mergedList;
   }
 
   function getSortedList(list, sortBy) {
-    const listSorted = list.sort((elementFirst, elementSecond) => {
+    const listSorted = list.slice().sort((elementFirst, elementSecond) => {
       const sortElementFirst = elementFirst[sortBy];
       const sortElementSecond = elementSecond[sortBy];
 

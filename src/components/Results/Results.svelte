@@ -66,7 +66,7 @@
     {#each list as entry, i (entry.state)}
       <li class="entry">
         <abbr class="postal-code" title={entry.state}>
-          {entry.state.substring(0, 2)} <!-- placeholder -->
+          {entry.postalCode}
         </abbr>
         <dl class="detail">
           <dt class="key">
