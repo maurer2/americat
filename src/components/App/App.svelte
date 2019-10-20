@@ -34,7 +34,7 @@
 
     setTimeout(() => {
       resolve(dataSources);
-    }, 250);
+    }, 2500);
 
     return dataSources;
   });

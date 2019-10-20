@@ -11,18 +11,19 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: grayscale(85%);
   }
 
   .logo {
     display: block;
     padding: 1rem;
+    flex-basis: 10vw;
   }
+
 </style>
 
 <template lang="html">

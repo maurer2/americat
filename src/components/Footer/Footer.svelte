@@ -13,9 +13,9 @@
     display: flex;
     padding: 1rem;
     flex-direction: column-reverse;
-    background: $blue;
-    color: $white;
     text-align: center;
+    background: $red;
+    color: $white;
 
     @media only screen and (min-width: $row-bp) {
       flex-direction: row;
@@ -50,7 +50,7 @@
       {#await list}
         Data is being loaded
       {:then list}
-        {list.length} results have been loaded
+        <strong>{list.length}</strong> results have been loaded
       {/await}
     </p>
   </footer>
