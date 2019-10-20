@@ -27,7 +27,7 @@
 </style>
 
 <template lang="html">
-  <div class="loader" out:fade="{{duration: 250}}">
+  <div class="loader" out:fade="{{ duration: 250 }}">
     <img class="logo" src={ logo } alt="" />
   </div>
 </template>

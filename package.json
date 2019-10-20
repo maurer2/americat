@@ -19,6 +19,7 @@
     "watch": "webpack --progress --mode development --watch",
     "start": "webpack-dev-server --config webpack.config.js",
     "lint": "eslint 'src/**/*.svelte'",
+    "lint:fix": "eslint 'src/**/*.svelte' --fix",
     "slides:start": "cd slides && yarn start",
     "slides:print": "cd slides && yarn build && cd .. && http-server ./slides/ && node ./print-headless.js"
   },

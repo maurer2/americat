@@ -8,7 +8,7 @@
 <style lang="scss">
   @import './src/variables.scss';
   @import 'animatewithsass/_properties';
-  @import "animatewithsass/_attention-seekers/flash";
+  @import 'animatewithsass/_attention-seekers/flash';
 
   $bp-row: 26rem;
 

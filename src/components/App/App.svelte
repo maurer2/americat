@@ -43,8 +43,8 @@
   $: {
     stateRankingList = dataFetching
       .then(([stateRankingFetched, postalCodesFetched]) => {
-        const transformedStateRankingList = getTransformedData(stateRankingFetched);
-        const mergedList = getStateRankingWithPostalCodes(transformedStateRankingList, postalCodesFetched);
+        const transformedList = getTransformedData(stateRankingFetched);
+        const mergedList = getStateRankingWithPostalCodes(transformedList, postalCodesFetched);
         const sortedList = getSortedList(mergedList, sortBy);
 
         return sortedList;
@@ -80,11 +80,10 @@
 
           return jsonData;
         }
+
+        return new Error();
       })
-      .catch((error) => {
-        console.log(error);
-        return error;
-      });
+      .catch((error) => error);
 
     return newList;
   }
@@ -92,8 +91,9 @@
   function getStateRankingWithPostalCodes(stateRankingList, postalCodesList) {
     const mergedList = stateRankingList.map((entry) => {
       const { state } = entry;
-      const postalCode = Object.keys(postalCodesList).find(postalCode => postalCodesList[postalCode] === state);
-      const mergedEntry = Object.assign({}, entry, { postalCode });
+      const postalCodes = Object.keys(postalCodesList);
+      const postalCode = postalCodes.find((codeEntry) => postalCodesList[codeEntry] === state);
+      const mergedEntry = { ...entry, postalCode };
 
       return mergedEntry;
     });
@@ -128,12 +128,13 @@
   function getEntryWithVisibleKeys(entry) {
     const entryWithSelectedKeys = Object.keys(entry).reduce((total, current) => {
       const isVisible = visibleFields.includes(current);
+      const newTotal = total;
   
       if (isVisible) {
-        total[current] = entry[current];
+        newTotal[current] = entry[current];
       }
 
-      return total;
+      return newTotal;
     }, {});
 
     return entryWithSelectedKeys;
@@ -147,8 +148,8 @@
   .wrapper {
     display: grid;
     position: relative;
-    height: 100%;
     margin: 0 auto;
+    min-height: 100%;
     grid-template-rows: auto 1fr auto; 
     grid-template-areas:
       "header"
