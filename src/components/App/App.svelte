@@ -4,6 +4,9 @@
 
   // components
   import Header from '../Header';
+  import Main from '../Main';
+  import Footer from '../Footer';
+  
   import Navigation from '../Navigation';
   import Results from '../Results';
   import Loader from '../Loader';
@@ -31,7 +34,7 @@
 
     setTimeout(() => {
       resolve(dataSources);
-    }, 2500);
+    }, 250);
 
     return dataSources;
   });
@@ -144,21 +147,19 @@
   .wrapper {
     display: grid;
     position: relative;
+    height: 100%;
     margin: 0 auto;
+    grid-template-rows: auto 1fr auto; 
     grid-template-areas:
       "header"
       "main"
       "footer"
     ;
   }
-
-  .main {
-    grid-area: main;
-  }
 </style>
 
 <template lang="html">
-  <div class="wrapper">
+  <article class="wrapper">
     <Header>
       {#await keys then keys}
         {#if keys.length > 0}
@@ -170,14 +171,15 @@
         {/if}
       {/await}
     </Header>
-    {#await stateRankingList}
-      <Loader />
-    {:then stateRankingList}
-      <main class="main">
+    <Main>
+      {#await stateRankingList}
+        <Loader />
+      {:then stateRankingList}
         <Results list={stateRankingList} activeKey={sortBy} />
-      </main>
-    {:catch error}
-      An error has occured
-    {/await}
-  </div>
+      {:catch error}
+        An error has occured
+      {/await}
+    </Main>
+    <Footer class="test" list={stateRankingList} />
+  </article>
 </template>
