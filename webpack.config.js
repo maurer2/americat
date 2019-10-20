@@ -91,8 +91,8 @@ module.exports = {
       hash: true,
     }),
     new CopyPlugin([
-      { from: 'api/data.json', to: 'json/states-ranking.json' },
-      { from: 'api/postal-codes.json', to: 'json/postal-codes.json' },
+      { from: 'api/results/data.json', to: 'json/states-ranking.json' },
+      { from: 'api/results/postal-codes.json', to: 'json/postal-codes.json' },
     ]),
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled',

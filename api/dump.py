@@ -21,8 +21,8 @@ def get_markup(link: str) -> str:
 
 def write_file(text: str) -> None:
     """Write to file"""
-    path = os.path.join(sys.path[0], "dump.txt")
-    file = open(path, "w")
+    path = os.path.join(sys.path[0], "results/dump.txt")
+    file = open(path, "w+")
     file.write(text)
     file.close()
 

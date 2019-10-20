@@ -10,7 +10,7 @@ import json
 def get_file_contents() -> str:
     """Read file content as string"""
 
-    path = os.path.join(sys.path[0], "data_raw.json")
+    path = os.path.join(sys.path[0], "results/data_raw.json")
     file = open(path, "r")
     text = file.read()
     file.close()
@@ -78,7 +78,10 @@ def get_state(text: str) -> str:
 def get_households_with_cats(text: str) -> str:
     """Extract households with cats relative"""
 
-    extracted_text = text.replace("%", "").replace("(tied)", "")
+    extracted_text = text\
+        .replace("%", "")\
+        .replace("(tied)", "")\
+        .replace(": ", "")
 
     return extracted_text.strip()
 
@@ -134,7 +137,7 @@ def json_stringify(entries: list) -> str:
 def write_file(text: str) -> None:
     """Write to file"""
 
-    path = os.path.join(sys.path[0], "data.json")
+    path = os.path.join(sys.path[0], "results/data.json")
     file = open(path, "w")
     file.write(text)
     file.close()

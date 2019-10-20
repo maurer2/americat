@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 def get_file_contents() -> str:
     """Read file content as string"""
-    path = os.path.join(sys.path[0], "dump.txt")
+    path = os.path.join(sys.path[0], "results/dump.txt")
     file = open(path, "r")
     text = file.read()
     file.close()
@@ -48,7 +48,9 @@ def extract_entry(entry: object) -> dict:
 
     child_elements = entry.findChildren(text=True)
 
-    return child_elements
+    trimmed = list(map(str.strip, child_elements))
+
+    return trimmed
 
 
 def json_stringify(entries: list) -> str:
@@ -60,8 +62,8 @@ def json_stringify(entries: list) -> str:
 
 def write_file(text: str) -> None:
     """Write to file"""
-    path = os.path.join(sys.path[0], "data_raw.json")
-    file = open(path, "w")
+    path = os.path.join(sys.path[0], "results/data_raw.json")
+    file = open(path, "w+")
     file.write(text)
     file.close()
 
@@ -70,7 +72,5 @@ CONTENT = get_file_contents()
 ENTRIES = get_entries(CONTENT)
 ENTRIES_MAPPED = extract_entries(ENTRIES)
 JSON_STRING = json_stringify(ENTRIES_MAPPED)
-
-print(JSON_STRING)
 
 write_file(JSON_STRING)

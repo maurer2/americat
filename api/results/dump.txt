@@ -1,0 +1,494 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="States With the Most and Least Cat Owners" />
+<meta property="og:url" content="https://247wallst.com/special-report/2017/07/19/states-with-the-most-and-least-cat-owners/" />
+<meta property="og:description" content="When it comes to cats, it won’t take you nine lifetimes to see how popular they are in the United States. These typically furry and cuddly animals were considered sacred in ancient Egypt. Today, wi…" />
+<meta property="article:published_time" content="2017-07-19T10:00:46+00:00" />
+<meta property="article:modified_time" content="2018-07-23T16:56:56+00:00" />
+<meta property="og:site_name" content="24/7 Wall St." />
+<meta property="og:image" content="https://247wallst.files.wordpress.com/2017/07/cat-with-owner.jpg" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="500" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:creator" content="@247WallSt" />
+<meta name="twitter:site" content="@247WallSt" />
+<meta name="twitter:text:title" content="States With the Most and Least Cat Owners" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+
+<!-- End Jetpack Open Graph Tags -->
+	<title>States With the Most and Least Cat Owners &#8211; 24/7 Wall St.</title>
+		<link rel="canonical" href="https://247wallst.com/special-report/2017/07/19/states-with-the-most-and-least-cat-owners/" />
+	<script src="https://cdn.ampproject.org/v0.js" async></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic">	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":"https:\/\/247wallst.com\/special-report\/2017\/07\/19\/states-with-the-most-and-least-cat-owners\/","publisher":{"@type":"Organization","name":"24\/7 Wall St.","logo":{"@type":"ImageObject","url":"https:\/\/247wallst.files.wordpress.com\/2019\/08\/cropped-247ws_2016-02-24-1.png?w=32","height":32,"width":32}},"headline":"States With the Most and Least Cat Owners","datePublished":"2017-07-19T06:00:46+00:00","dateModified":"2018-07-23T12:56:56+00:00","author":[{"@type":"Person","name":"Joseph Gedeon"}],"image":{"@type":"ImageObject","url":"https:\/\/247wallst.files.wordpress.com\/2017\/07\/cat-with-owner.jpg","width":500,"height":500}}</script>
+	<meta name="generator" content="AMP Plugin v0.6.2" />	<style amp-custom>
+		/* Generic WP styling */
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.amp-wp-enforced-sizes {
+	/** Our sizes fallback is 100vw, and we have a padding on the container; the max-width here prevents the element from overflowing. **/
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.amp-wp-unknown-size img {
+	/** Worst case scenario when we can't figure out dimensions for an image. **/
+	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+	object-fit: contain;
+}
+
+/* Template Styles */
+
+.amp-wp-content,
+.amp-wp-title-bar div {
+		margin: 0 auto;
+	max-width: 600px;
+	}
+
+html {
+	background: #0a89c0;
+}
+
+body {
+	background: #fff;
+	color: #353535;
+	font-family: 'Merriweather', 'Times New Roman', Times, Serif;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+p,
+ol,
+ul,
+figure {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+a,
+a:visited {
+	color: #0a89c0;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #353535;
+}
+
+/* Quotes */
+
+blockquote {
+	color: #353535;
+	background: rgba(127,127,127,.125);
+	border-left: 2px solid #0a89c0;
+	margin: 8px 0 24px 0;
+	padding: 16px;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/* UI Fonts */
+
+.amp-wp-meta,
+.amp-wp-header div,
+.amp-wp-title,
+.wp-caption-text,
+.amp-wp-tax-category,
+.amp-wp-tax-tag,
+.amp-wp-comments-link,
+.amp-wp-footer p,
+.back-to-top {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+/* Header */
+
+.amp-wp-header {
+	background-color: #0a89c0;
+}
+
+.amp-wp-header div {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: .875em 16px;
+	position: relative;
+}
+
+.amp-wp-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Site Icon */
+
+.amp-wp-header .amp-wp-site-icon {
+	/** site icon is 32px **/
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 18px;
+	top: 10px;
+}
+
+/* Article */
+
+.amp-wp-article {
+	color: #353535;
+	font-weight: 400;
+	margin: 1.5em auto;
+	max-width: 840px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/* Article Header */
+
+.amp-wp-article-header {
+	align-items: center;
+	align-content: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1.5em 16px 0;
+}
+
+.amp-wp-title {
+	color: #353535;
+	display: block;
+	flex: 1 0 100%;
+	font-weight: 900;
+	margin: 0 0 .625em;
+	width: 100%;
+}
+
+/* Article Meta */
+
+.amp-wp-meta {
+	color: #696969;
+	display: inline-block;
+	flex: 2 1 50%;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+.amp-wp-article-header .amp-wp-meta:last-of-type {
+	text-align: right;
+}
+
+.amp-wp-article-header .amp-wp-meta:first-of-type {
+	text-align: left;
+}
+
+.amp-wp-byline amp-img,
+.amp-wp-byline .amp-wp-author {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.amp-wp-byline amp-img {
+	border: 1px solid #0a89c0;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 6px;
+}
+
+.amp-wp-posted-on {
+	text-align: right;
+}
+
+/* Featured image */
+
+.amp-wp-article-featured-image {
+	margin: 0 0 1em;
+}
+.amp-wp-article-featured-image amp-img {
+	margin: 0 auto;
+}
+.amp-wp-article-featured-image.wp-caption .wp-caption-text {
+	margin: 0 18px;
+}
+
+/* Article Content */
+
+.amp-wp-article-content {
+	margin: 0 16px;
+}
+
+.amp-wp-article-content ul,
+.amp-wp-article-content ol {
+	margin-left: 1em;
+}
+
+.amp-wp-article-content amp-img {
+	margin: 0 auto;
+}
+
+.amp-wp-article-content amp-img.alignright {
+	margin: 0 0 1em 16px;
+}
+
+.amp-wp-article-content amp-img.alignleft {
+	margin: 0 16px 1em 0;
+}
+
+/* Captions */
+
+.wp-caption {
+	padding: 0;
+}
+
+.wp-caption.alignleft {
+	margin-right: 16px;
+}
+
+.wp-caption.alignright {
+	margin-left: 16px;
+}
+
+.wp-caption .wp-caption-text {
+	border-bottom: 1px solid #c2c2c2;
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: .66em 10px .75em;
+}
+
+/* AMP Media */
+
+amp-carousel {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+amp-iframe,
+amp-youtube,
+amp-instagram,
+amp-vine {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+
+.amp-wp-article-content amp-carousel amp-img {
+	border: none;
+}
+
+amp-carousel > amp-img > img {
+	object-fit: contain;
+}
+
+.amp-wp-iframe-placeholder {
+	background: #c2c2c2 url( https://s2.wp.com/wp-content/plugins/amp/assets/images/placeholder-icon.png ) no-repeat center 40%;
+	background-size: 48px 48px;
+	min-height: 48px;
+}
+
+/* Article Footer Meta */
+
+.amp-wp-article-footer .amp-wp-meta {
+	display: block;
+}
+
+.amp-wp-tax-category,
+.amp-wp-tax-tag {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 1.5em 16px;
+}
+
+.amp-wp-comments-link {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 2.25em 0 1.5em;
+}
+
+.amp-wp-comments-link a {
+	border-style: solid;
+	border-color: #c2c2c2;
+	border-width: 1px 1px 2px;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #0a89c0;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 0 auto;
+	max-width: 200px;
+	padding: 11px 16px;
+	text-decoration: none;
+	width: 50%;
+	-webkit-transition: background-color 0.2s ease;
+			transition: background-color 0.2s ease;
+}
+
+/* AMP Footer */
+
+.amp-wp-footer {
+	border-top: 1px solid #c2c2c2;
+	margin: calc(1.5em - 1px) 0 0;
+}
+
+.amp-wp-footer div {
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: 1.25em 16px 1.25em;
+	position: relative;
+}
+
+.amp-wp-footer h2 {
+	font-size: 1em;
+	line-height: 1.375em;
+	margin: 0 0 .5em;
+}
+
+.amp-wp-footer p {
+	color: #696969;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin: 0 85px 0 0;
+}
+
+.amp-wp-footer a {
+	text-decoration: none;
+}
+
+.back-to-top {
+	bottom: 1.275em;
+	font-size: .8em;
+	font-weight: 600;
+	line-height: 2em;
+	position: absolute;
+	right: 16px;
+}
+		/* Inline styles */
+.amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142{text-align:left;}.amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf{max-width:655px;}.amp-wp-inline-a6ec8840dd8107f0c4f9cbd7d00cece0{text-align:center;}.amp-wp-inline-329fdb7771c10d07df9eb73273c95a60{font-weight:400;}.amp-wp-inline-40e61f8af7aa709830a69202cb74cc6a{color:#008000;}.amp-wp-inline-38631529ea6746454be5fbfce5d18606{max-width:510px;}	</style>
+</head>
+
+<body class="">
+
+<header id="top" class="amp-wp-header">
+	<div>
+		<a href="https://247wallst.com">
+										<amp-img src="https://247wallst.files.wordpress.com/2019/08/cropped-247ws_2016-02-24-1.png?w=32" width="32" height="32" class="amp-wp-site-icon"></amp-img>
+						<span class="amp-site-title">
+				24/7 Wall St.			</span>
+		</a>
+	</div>
+</header>
+
+<article class="amp-wp-article">
+	<header class="amp-wp-article-header">
+		<h1 class="amp-wp-title">States With the Most and Least Cat Owners</h1>
+		<li class="amp-wp-byline">
+	Joseph Gedeon</li>
+<div class="amp-wp-meta amp-wp-posted-on">
+	<time datetime="2017-07-19T06:00:46+00:00">
+		2 years ago	</time>
+</div>
+	</header>
+
+	
+	<div class="amp-wp-article-content">
+		<p></p><div class="wp-caption alignnone amp-wp-inline-38631529ea6746454be5fbfce5d18606"><amp-img class="alignnone replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/07/cat-with-owner.jpg?w=500&amp;h=500" alt="" width="500" height="500" sizes="(min-width: 500px) 500px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p>When it comes to cats, it won’t take you nine lifetimes to see how popular they are in the United States. These typically furry and cuddly animals were considered sacred in ancient Egypt. Today, with over<span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60"> 74 million cats living in over 36 million American households</span><span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60">, many have welcomed our feline overlords — in real life and on the internet.</span></p><p><span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60">Only the continental U.S. was considered, and stray or feral cats</span><span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60">, which are estimated to number well over 50 million, were not counted. Based on the latest data from the American Veterinary Medical Association, an estimated 30.4% of households own cats — or is it the cats that own the households? </span></p><p><span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60">The region with the highest cat-owning households per capita is New England — the area consisting of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. With 35.0% of households, compare this to the 28.5% of households that own cats in the South Atlantic, the region with the lowest percentage of cat-owning households. Still, the states of the South Atlantic — Delaware, Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia, and West Virginia — own the largest sheer number of cats as pets.</span></p><p><span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60">24/7 Wall St. ranked the states based on household cat ownership rates. With not even 25% of households, Utah is the state with the lowest share of cat-owning households. In Vermont, on the other hand, nearly 50% of households own at least one cat. Where do you think your state sits on the list?</span></p><p><a href="https://247wallst.com/special-report/2017/07/19/states-with-the-most-and-least-cat-owners/2/" class="amp-wp-inline-40e61f8af7aa709830a69202cb74cc6a"><strong>Click here to see the states with the most and least cat owners.</strong></a></p><p><span class="amp-wp-inline-329fdb7771c10d07df9eb73273c95a60">To identify the states where cat ownership is the highest and lowest, 24/7 Wall St. analyzed the percentage of households that own cats in each of the contiguous U.S. states from the American Veterinary Medical Association’s U.S Pet Ownership &amp; Demographic Sourcebook, 2012 edition, which contains the latest data available.</span></p><p><!--nextpage--></p><div></div><p class="amp-wp-inline-a6ec8840dd8107f0c4f9cbd7d00cece0"><strong><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/04/grand-staircase-escalante-national-monument-in-utah.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div></strong></p><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>48. Utah </strong><br/><strong>&gt; Cat-owning households: </strong>24.6%<br/><strong>&gt; Cat population: </strong> 455,000 (12th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/05/newark-new-jersey-skyline.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>47. New Jersey </strong><br/><strong>&gt; Cat-owning households: </strong>25.3%<br/><strong>&gt; Cat population: </strong> 1,468,000 (19th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.8 (9th lowest)</p><div class="recirc recirc-text">
+			<strong>
+				<a id="9273973645dacc3fd718a2" href="https://247wallst.com/special-report/2017/07/17/sports-teams-running-out-of-fans-2/">
+				ALSO READ: Sports Teams Running Out of Fans				</a>
+			</strong>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/11/french-quarter-new-orleans-louisiana.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>46. Louisiana </strong><br/><strong>&gt; Cat-owning households: </strong>25.9%<br/><strong>&gt; Cat population: </strong> 877,000 (23rd lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/05/chicago-illinois-4.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>45. Illinois </strong><br/><strong>&gt; Cat-owning households: </strong>26.3%<br/><strong>&gt; Cat population: </strong> 2,453,000 (7th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/06/miami-beach-florida.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>44. Florida </strong><br/><strong>&gt; Cat-owning households: </strong>27.3% (tied)<br/><strong>&gt; Cat population: </strong> 4,375,000 (3rd highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/05/altanta-georgia-skyline.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>43. Georgia </strong><br/><strong>&gt; Cat-owning households: </strong>27.3% (tied)<br/><strong>&gt; Cat population: </strong> 2,162,000 (10th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/02/birmingham-alabama-e1454518006108.jpg?w=645&amp;h=362" alt="" width="645" height="362" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>42. Alabama </strong><br/><strong>&gt; Cat-owning households:</strong> 27.4%<br/><strong>&gt; Cat population: </strong> 1,252,000 (23rd highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.5 (2nd highest)</p><div class="recirc recirc-graphic">
+			<a href="https://247wallst.com/special-report/2017/07/25/best-cities-for-families/" id="8160353315dacc3fd71c3e">
+				<amp-img class="recirc-graphic-img amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/09/thinkstockphotos-147297417.jpg?h=70" alt="" width="70" height="70" sizes="(min-width: 70px) 70px, 100vw"></amp-img>24/7 Wall St.<br/><strong>Best Cities for Families</strong>
+			</a>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/03/rhode-island-e1458857500410.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>41. Rhode Island </strong><br/><strong>&gt; Cat-owning households: </strong>27.6%<br/><strong>&gt; Cat population: </strong> 212,000 (6th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.8 (9th lowest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/11/charleston-south-carolina-dusk.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>40. South Carolina </strong><br/><strong>&gt; Cat-owning households: </strong>27.8%<br/><strong>&gt; Cat population: </strong> 1,039,000 (24th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/06/san-francisco-california-cable-car.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>39. California </strong><br/><strong>&gt; Cat-owning households: </strong>28.3% (tied)<br/><strong>&gt; Cat population: </strong> 7,118,000 (the highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/03/houston-texas-at-night.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>38. Texas </strong><br/><strong>&gt; Cat-owning households:</strong> 28.3% (tied)<br/><strong>&gt; Cat population: </strong> 5,565,000 (2nd highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/11/richmond-virginia.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>37. Virginia </strong><br/><strong>&gt; Cat-owning households: </strong>29.0%<br/><strong>&gt; Cat population: </strong> 1,855,000 (12th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><div class="recirc recirc-graphic">
+			<a href="https://247wallst.com/special-report/2017/07/16/where-youll-pay-the-most-in-electric-bills/" id="14113138745dacc3fd71f3d">
+				<amp-img class="recirc-graphic-img amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/07/thinkstockphotos-480351583-e1500228144960.jpg?h=70" alt="" width="70" height="70" sizes="(min-width: 70px) 70px, 100vw"></amp-img>24/7 Wall St.<br/><strong>Where You’ll Pay the Most in Electric Bills</strong>
+			</a>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/02/vicksburg-mississippi-river-railroad-bridge.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>36. Mississippi </strong><br/><strong>&gt; Cat-owning households: </strong>29.1% (tied)<br/><strong>&gt; Cat population: </strong> 668,000 (18th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/06/new-york-tobacco1.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: chensiyuan / Wikimedia Commons</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>35. New York </strong><br/><strong>&gt; Cat-owning households: </strong>29.1% (tied)<br/><strong>&gt; Cat population: </strong> 4,261,000 (4th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/01/raleigh-wake-county-north-carolina-e1454016997280.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>34. North Carolina </strong><br/><strong>&gt; Cat-owning households: </strong>29.5%<br/><strong>&gt; Cat population: </strong> 2,220,000 (9th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/02/road-to-superstition-mountain-arizona.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>33. Arizona </strong><br/><strong>&gt; Cat-owning households: </strong>29.6%<br/><strong>&gt; Cat population: </strong> 1,438,000 (20th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/10/st-paul-minnesota.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>32. Minnesota </strong><br/><strong>&gt; Cat-owning households: </strong>29.7%<br/><strong>&gt; Cat population: </strong> 1,264,000 (22nd highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><div class="recirc recirc-graphic">
+			<a href="https://247wallst.com/special-report/2017/07/25/best-cities-for-families/" id="3613760445dacc3fd720ae">
+				<amp-img class="recirc-graphic-img amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/09/thinkstockphotos-147297417.jpg?h=70" alt="" width="70" height="70" sizes="(min-width: 70px) 70px, 100vw"></amp-img>24/7 Wall St.<br/><strong>Best Cities for Families</strong>
+			</a>
+		</div><p><amp-img class="aligncenter amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2015/11/baltimore-columbia-towson-maryland-e1447190762210.jpg?w=645&amp;h=416" alt="" width="645" height="416" sizes="(min-width: 600px) 600px, 100vw"></amp-img></p><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>31. Maryland </strong><br/><strong>&gt; Cat-owning households: </strong>29.8% (tied)<br/><strong>&gt; Cat population: </strong> 1,677,000 (15th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.6 (the highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/05/lookout-mountain-tennessee.jpg?w=645&amp;h=362" alt="" width="645" height="362" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: <a href="https://www.flickr.com/photos/pamwood707/" rel="nofollow" target="_blank">https://www.flickr.com/photos/pamwood707/</a></span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>30. Tennessee </strong><br/><strong>&gt; Cat-owning households:</strong> 29.8% (tied)<br/><strong>&gt; Cat population: </strong> 1,749,000 (14th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.3 (4th highest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/03/des-moines-iowa.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>29. Iowa </strong><br/><strong>&gt; Cat-owning households: </strong>30.3% (tied)<br/><strong>&gt; Cat population: </strong> 805,000 (21st lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/03/las-vegas-nevada.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>28. Nevada </strong><br/><strong>&gt; Cat-owning households: </strong>30.3% (tied)<br/><strong>&gt; Cat population: </strong> 625,000 (16th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/03/little-rock-arkansas.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>27. Arkansas </strong><br/><strong>&gt; Cat-owning households: </strong>30.6%<br/><strong>&gt; Cat population: </strong> 810,000 (22nd lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.3 (4th highest)</p><div class="recirc recirc-text">
+			<strong>
+				<a id="20021932585dacc3fd722f9" href="https://247wallst.com/special-report/2017/07/13/16-best-dogs-for-allergy-sufferers/">
+				ALSO READ: 16 Best Dogs for Allergy Sufferers				</a>
+			</strong>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/05/detroit-michigan-ducks-e1463502022202.jpg?w=645&amp;h=362" alt="" width="645" height="362" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>26. Michigan </strong><br/><strong>&gt; Cat-owning households: </strong>31.3% (tied)<br/><strong>&gt; Cat population: </strong> 2,420,000 (8th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/02/omaha-nebraska-e1455632840797.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>25. Nebraska </strong><br/><strong>&gt; Cat-owning households: </strong>31.3% (tied)<br/><strong>&gt; Cat population: </strong> 514,000 (14th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.3 (4th highest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/04/2009-0521-cdntrip026-nd-minot-e1492392115514.jpg?w=645&amp;h=364" alt="" width="645" height="364" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Bobak Ha'Eri / Wikimedia Commons</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>24. North Dakota </strong><br/><strong>&gt; Cat-owning households: </strong>31.4%<br/><strong>&gt; Cat population: </strong> 174,000 (4th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/02/hartford-connecticut-walking-bridge.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>23. Connecticut </strong><br/><strong>&gt; Cat-owning households: </strong>31.9%<br/><strong>&gt; Cat population: </strong> 796,000 (20th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/05/shiprock-new-mexico.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>22. New Mexico </strong><br/><strong>&gt; Cat-owning households: </strong>32.0%<br/><strong>&gt; Cat population: </strong> 533,000 (15th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><div class="recirc recirc-text">
+			<strong>
+				<a id="291002535dacc3fd72498" href="https://247wallst.com/special-report/2017/07/25/best-cities-for-families/">
+				ALSO READ: Best Cities for Families				</a>
+			</strong>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/02/american-flag-st-louis-missouri.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>21. Missouri </strong><br/><strong>&gt; Cat-owning households: </strong>32.2%<br/><strong>&gt; Cat population: </strong> 1,653,000 (16th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/06/downtown-denver-colorado.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>20. Colorado </strong><br/><strong>&gt; Cat-owning households:</strong> 32.3%<br/><strong>&gt; Cat population: </strong> 1,191,000 (24th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/01/oklahoma-city-oklahoma.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>19. Oklahoma </strong><br/><strong>&gt; Cat-owning households: </strong>32.6%<br/><strong>&gt; Cat population: </strong> 1,041,000 (25th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/02/milwaukee-wisconsin-e1455224274983.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>18. Wisconsin </strong><br/><strong>&gt; Cat-owning households: </strong>33.0%<br/><strong>&gt; Cat population: </strong> 1,510,000 (18th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2015/12/topeka-kansas-e1449081529662.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>17. Kansas </strong><br/><strong>&gt; Cat-owning households: </strong>33.3% (tied)<br/><strong>&gt; Cat population: </strong> 731,000 (19th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><div class="recirc recirc-text">
+			<strong>
+				<a id="18456690605dacc3fd72751" href="https://247wallst.com/special-report/2017/07/15/26-most-dangerous-cities-in-the-world/">
+				ALSO READ: 26 Most Dangerous Cities in the World				</a>
+			</strong>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2015/11/cincinnati-ohio-e1447949796520.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>16. Ohio </strong><br/><strong>&gt; Cat-owning households: </strong>33.3% (tied)<br/><strong>&gt; Cat population: </strong> 3,786,000 (5th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.4 (3rd highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/07/national-bison-range-montana-e1467900252293.jpg?w=645&amp;h=362" alt="" width="645" height="362" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Jaix Chaix / Wikimedia Commons</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>15. Montana </strong><br/><strong>&gt; Cat-owning households: </strong>33.6%<br/><strong>&gt; Cat population: </strong> 277,000 (8th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/02/wilmington-delaware-e1455208642118.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>14. Delaware </strong><br/><strong>&gt; Cat-owning households: </strong>: 33.7%<br/><strong>&gt; Cat population: </strong> 187,000 (5th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.7 (3rd lowest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/09/thinkstockphotos-503324446-e1473872437101.jpg?w=645&amp;h=362" alt="" width="645" height="362" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>13. Pennsylvania </strong><br/><strong>&gt; Cat-owning households: </strong>33.8%<br/><strong>&gt; Cat population: </strong> 3,544,000 (6th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/01/teton-county-wyoming-e1453489628688.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Kristin / Wikimedia Commons</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>12. Wyoming </strong><br/><strong>&gt; Cat-owning households: </strong>33.9%<br/><strong>&gt; Cat population: </strong>144,000 (3rd lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><div class="recirc recirc-graphic">
+			<a href="https://247wallst.com/special-report/2017/07/25/best-cities-for-families/" id="7188280625dacc3fd728d5">
+				<amp-img class="recirc-graphic-img amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/09/thinkstockphotos-147297417.jpg?h=70" alt="" width="70" height="70" sizes="(min-width: 70px) 70px, 100vw"></amp-img>24/7 Wall St.<br/><strong>Best Cities for Families</strong>
+			</a>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/05/boston-massachusetts.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>11. Massachusetts </strong><br/><strong>&gt; Cat-owning households: </strong>34.1%<br/><strong>&gt; Cat population: </strong> 1,593,000 (17th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.8 (9th lowest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/01/manchester-new-hampshire.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>10. New Hampshire </strong><br/><strong>&gt; Cat-owning households: </strong>34.2%<br/><strong>&gt; Cat population: </strong> 309,000 (10th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.8 (9th lowest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/05/indianapolis-indiana.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>9. Indiana </strong><br/><strong>&gt; Cat-owning households: </strong>34.4%<br/><strong>&gt; Cat population: </strong> 1,912,000 (11th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/12/boise-city-idaho.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>8. Idaho </strong><br/><strong>&gt; Cat-owning households: </strong>34.6%<br/><strong>&gt; Cat population: </strong> 393,000 (11th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/05/louisville-kentucky-skyline.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>7. Kentucky </strong><br/><strong>&gt; Cat-owning households: </strong>36.8%<br/><strong>&gt; Cat population: </strong> 1,349,000 (21st highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.1 (14th highest)</p><div class="recirc recirc-graphic">
+			<a href="https://247wallst.com/special-report/2017/07/10/17-health-hazards-you-want-to-avoid-this-summer/" id="17370258875dacc3fd72b66">
+				<amp-img class="recirc-graphic-img amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/07/surfer-girl-surfing.jpg?h=70" alt="" width="70" height="70" sizes="(min-width: 70px) 70px, 100vw"></amp-img>24/7 Wall St.<br/><strong>17 Health Hazards You Want to Avoid This Summer</strong>
+			</a>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/04/wheeling-west-virginia-e1459543227788.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>6. West Virginia </strong><br/><strong>&gt; Cat-owning households: </strong>38.1%<br/><strong>&gt; Cat population: </strong> 628,000 (17th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/01/seattle-washington-e1452099279309.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>5. Washington </strong><br/><strong>&gt; Cat-owning households: </strong>39.0%<br/><strong>&gt; Cat population: </strong> 1,844,000 (13th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.8 (9th lowest)</p><p>[in-text-ad-2]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/01/rapid-city-south-dakota.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>4. South Dakota </strong><br/><strong>&gt; Cat-owning households: </strong>39.1%<br/><strong>&gt; Cat population: </strong> 290,000 (9th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.2 (7th highest)</p><p><!--nextpage--></p><div></div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/10/portland-oregon.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>3. Oregon </strong><br/><strong>&gt; Cat-owning households: </strong>40.2%<br/><strong>&gt; Cat population: </strong> 1,185,000 (25th highest)<br/><strong>&gt; Avg. number of cats per household: </strong> 2.0 (22nd highest)</p><p>[in-text-ad]</p><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2016/06/maine-tobacco.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>2. Maine </strong><br/><strong>&gt; Cat-owning households: </strong>46.4%<br/><strong>&gt; Cat population: </strong> 498,000 (13th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.9 (19th lowest)</p><div class="recirc recirc-text">
+			<strong>
+				<a id="2644915665dacc3fd72ea2" href="https://247wallst.com/special-report/2017/07/13/50-top-ranked-colleges-that-pay-off-the-least/">
+				ALSO READ: 50 Top Ranked Colleges That Pay Off the Least				</a>
+			</strong>
+		</div><p></p><div class="wp-caption aligncenter amp-wp-inline-1d81e84c0922e3cc00cf1973909d2acf"><amp-img class="aligncenter replaced amp-wp-enforced-sizes" src="https://247wallst.files.wordpress.com/2017/06/church-street-burlington-vermont.jpg?w=645&amp;h=363" alt="" width="645" height="363" sizes="(min-width: 600px) 600px, 100vw"></amp-img><div class="wallst_image_source"><span>Source: Thinkstock</span></div></div><p class="amp-wp-inline-2b4d2be2e69fb2a80f3ea04ab4df1142"><strong>1. Vermont </strong><br/><strong>&gt; Cat-owning households: </strong>49.5%<br/><strong>&gt; Cat population: </strong> 234,000 (7th lowest)<br/><strong>&gt; Avg. number of cats per household: </strong> 1.8 (9th lowest)</p>	</div>
+
+	<footer class="amp-wp-article-footer">
+			<div class="amp-wp-meta amp-wp-tax-category">
+		Categories: <a href="https://247wallst.com/./special-report/" rel="category tag">Special Report</a>	</div>
+
+	</footer>
+</article>
+
+<footer class="amp-wp-footer">
+	<div>
+		<h2>24/7 Wall St.</h2>
+		<p>
+			<a href="https://wordpress.org/">
+				Powered by WordPress			</a>
+		</p>
+		<a href="#top" class="back-to-top">Back to top</a>
+	</div>
+</footer>
+
+
+	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;host=247wallst.com&#038;ref=DOCUMENT_REFERRER&#038;amp=1&#038;blog=5450697&#038;v=wpcom&#038;tz=-4&#038;user_id=0&#038;post=402672&#038;subd=247wallst"></amp-pixel>
+	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;v=wpcom-no-pv&#038;crypt=UE40eW5QN0p8M2Y%2FRE1BNmNJfGhxNCVxUDExYmtib2E%2FSzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1%2BR3NyNTdGQWs0Rk9xZ2I1NF9NeFJXd3ViMXhfT2h6aHdNKyUmfm5UcGFbN1EvMFkmNlVReklOLVkudXFtbHpJZkE4P3BBX09pP2o2LjRONj1GVXFHeXpafGRoVUZWU1B6dWRRbysreGdEfjJxWFZUaEtvPWxnWkdTT2FIR2pJOUtbY1JjRC0wWCYxOWk%2FNStjWDRXVjNpWkllS209TThFWnVpX1UyJXxWTW0%3D"></amp-pixel>
+	
+</body>
+</html>
