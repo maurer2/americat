@@ -37,6 +37,7 @@
 
   .navigation {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
   }
 
@@ -44,18 +45,22 @@
     display: flex;
     padding: 0.5rem;
     flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
+    flex-shrink: 0;
+    flex-basis: 50%;
     justify-content: center;
     align-items: center;
+    background: $white;
     border: 0;
     appearance: none;
     color: $blue;
     outline: 0;
-    border-bottom: 4px solid $blue;
+    cursor: pointer;
+
+    @media only screen and (min-width: 30rem) {
+      flex-basis: auto;
+    }
 
     &--is-active {
-      position: relative; // new stacking context to have osx focus ring on top of other buttons
       background: $red;
       color: $white;
     }

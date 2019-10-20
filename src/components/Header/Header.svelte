@@ -6,14 +6,17 @@
   .header {
     position: sticky;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     grid-area: header;
     background: $blue;
     z-index: 1;
   }
 
   .title {
-    display: inline-block;
     margin: 1rem;
+    align-items: flex-start;
     font-family: 'USA', Arial, sans-serif;
     font-weight: normal;
     font-size: 2.5rem;

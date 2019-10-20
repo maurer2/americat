@@ -13,6 +13,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
+
+    @supports (scroll-snap-type: y) and (scroll-snap-align: start) {
+      height: 100vh;
+      overflow-y: scroll;
+      scroll-snap-type: y;
+    }
   }
 
   .entry {
@@ -20,6 +26,10 @@
     list-style: none;
     background: $red;
     color: $white;
+
+    @supports (scroll-snap-type: y) and (scroll-snap-align: start) {
+      scroll-snap-align: start;
+    }
 
     &:nth-child(even) {
       background: $white;
@@ -29,7 +39,7 @@
 
   .postal-code {
     flex-basis : 4rem;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     text-decoration: none;
     text-align: center;
     background: $blue;
@@ -41,7 +51,7 @@
   .detail {
     display: flex;
     margin: 0;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     flex-grow: 1;
   }
 
