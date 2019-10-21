@@ -64,8 +64,9 @@ def get_rank(text: str) -> str:
     """Extract overall rank"""
 
     rank = re.findall(r"[0-9]+", text)
+    rank_number = int(rank[0])
 
-    return rank[0].strip()
+    return rank_number
 
 
 def get_state(text: str) -> str:
@@ -80,16 +81,20 @@ def get_households_with_cats(text: str) -> str:
     """Extract households with cats relative"""
 
     households_with_cats = re.findall(r"[0-9.]+", text)
+    households_with_cats_number = float(households_with_cats[0])
 
-    return households_with_cats[0]
+    return households_with_cats_number
 
 
 def get_cat_population_absolute(text: str) -> str:
     """Extract cat population absolute"""
 
     households_with_cats_absolute = re.findall(r"[0-9.,]+", text)
+    households_with_cats_absolute_number = int(
+        households_with_cats_absolute[0].replace(",", "")
+    )
 
-    return households_with_cats_absolute[0]
+    return households_with_cats_absolute_number
 
 
 def get_cat_population_relative(text: str) -> str:
@@ -104,8 +109,9 @@ def get_cats_per_household_absolute(text: str) -> str:
     """Extract cats per household absolute"""
 
     cats_per_household_absolute = re.findall(r"[0-9.,]+", text)
+    cats_per_household_absolute_number = float(cats_per_household_absolute[0])
 
-    return cats_per_household_absolute[0]
+    return cats_per_household_absolute_number
 
 
 def get_cats_per_household_relative(text: str) -> str:
