@@ -5,6 +5,7 @@ map extracted data
 import os
 import sys
 import json
+import re
 
 
 def get_file_contents() -> str:
@@ -60,62 +61,59 @@ def map_entries(entries: list) -> list:
 
 
 def get_rank(text: str) -> str:
-    """Extract rank"""
+    """Extract overall rank"""
 
-    extracted_text = text.split(".", 1)
+    rank = re.findall(r"[0-9]+", text)
 
-    return extracted_text[0].strip()
+    return rank[0].strip()
 
 
 def get_state(text: str) -> str:
     """Extract state"""
 
-    extracted_text = text.split(".", 1)
+    state = re.findall(r"[a-zA-Z ]+", text)
 
-    return extracted_text[1].strip()
+    return state[0].strip()
 
 
 def get_households_with_cats(text: str) -> str:
     """Extract households with cats relative"""
 
-    extracted_text = text\
-        .replace("%", "")\
-        .replace("(tied)", "")\
-        .replace(": ", "")
+    households_with_cats = re.findall(r"[0-9.]+", text)
 
-    return extracted_text.strip()
+    return households_with_cats[0]
 
 
 def get_cat_population_absolute(text: str) -> str:
     """Extract cat population absolute"""
 
-    extracted_text = text.split("(", 1)
+    households_with_cats_absolute = re.findall(r"[0-9.,]+", text)
 
-    return extracted_text[0].strip()
+    return households_with_cats_absolute[0]
 
 
 def get_cat_population_relative(text: str) -> str:
     """Extract cat population relative"""
 
-    extracted_text = text.split("(", 1)
+    households_with_cats_relative = re.findall(r"\((.*?)\)+", text)
 
-    return extracted_text[1].replace(")", "").strip()
+    return households_with_cats_relative[0]
 
 
 def get_cats_per_household_absolute(text: str) -> str:
     """Extract cats per household absolute"""
 
-    extracted_text = text.split("(", 1)
+    cats_per_household_absolute = re.findall(r"[0-9.,]+", text)
 
-    return extracted_text[0].strip()
+    return cats_per_household_absolute[0]
 
 
 def get_cats_per_household_relative(text: str) -> str:
     """Extract cats per household absolute"""
 
-    extracted_text = text.split("(", 1)
+    households_with_cats_relative = re.findall(r"\((.*?)\)+", text)
 
-    return extracted_text[1].replace(")", "").strip()
+    return households_with_cats_relative[0]
 
 
 def convert_results_to_list(results: object) -> list:
@@ -147,7 +145,5 @@ CONTENT = get_file_contents()
 ENTRIES = get_file_entries(CONTENT)
 ENTRIES_MAPPED = map_entries(ENTRIES)
 JSON_STRING = json_stringify(ENTRIES_MAPPED)
-
-print(JSON_STRING)
 
 write_file(JSON_STRING)
