@@ -12,10 +12,6 @@
   import Loader from '../Loader';
   
   // vars
-  let sortBy = 'rank';
-  let stateRankingList = [];
-  let keys = [];
-
   const urlStateRanking = 'json/states-ranking.json';
   const urlPostalCodes = 'json/postal-codes.json';
   const visibleFields = [
@@ -38,6 +34,10 @@
 
     return dataSources;
   });
+
+  let [sortBy] = visibleFields;
+  let stateRankingList = [];
+  let keys = [];
 
   // reactive vars
   $: {
@@ -101,10 +101,16 @@
     return mergedList;
   }
 
-  function getSortedList(list, sortBy) {
+  function getSortedList(list, sortByKey) {
+    const sortByIsInList = list.some((listEntry) => Object.keys(listEntry).includes(sortByKey));
+
+    if (!sortByIsInList) {
+      return list;
+    }
+
     const listSorted = list.slice().sort((elementFirst, elementSecond) => {
-      const sortElementFirst = elementFirst[sortBy];
-      const sortElementSecond = elementSecond[sortBy];
+      const sortElementFirst = elementFirst[sortByKey].toString();
+      const sortElementSecond = elementSecond[sortByKey].toString();
 
       return sortElementFirst.localeCompare(sortElementSecond, undefined, { numeric: true });
     });
