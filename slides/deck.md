@@ -117,7 +117,7 @@ html
   </Component>
   
   <h1 class="className">
-    { title }
+    {title}
   </h1>
   <label for="field">Label</label>
 </div>
@@ -140,13 +140,13 @@ html
 ## Attributes and props
 
 ```html
-<Component value={ value } text="text" text2=text />
+<Component value={value} text="text" text2=text />
 
-<Component value={ x === 25 } value2="{ !isDefault }" />
+<Component value={x === 25} value2="{!isDefault}" />
 
-<Component { hidden } />
+<Component {hidden} />
 
-<Component { ...allProps } />
+<Component {...allProps} />
 ```
 
 ---
@@ -226,9 +226,9 @@ html
 
 ```html
 <div class="parent">
-  <ChildComponent value={ value } />
+  <ChildComponent value={value} />
 
-  <ChildComponent value={ value } />
+  <ChildComponent value={value} />
     <h2>{salutation}</h2>
   </ChildComponent>
 </div>
@@ -271,7 +271,7 @@ html
 ```html
 <div class="parent">
   <!-- Handle child event in parent -->
-  <ChildComponent on:childeventname="funcInParent" />
+  <ChildComponent on:childeventname={functionInParent} />
 
   <!-- Relay child event to grandparent -->
   <ChildComponent on:childeventname />
@@ -316,9 +316,9 @@ html
   {#await someAsyncOperation}
     <Spinner />
   {:then someAsyncOperationReturnValue}
-    <MainComponent data={ someAsyncOperationReturnValue } />
+    <MainComponent data={someAsyncOperationReturnValue} />
   {:catch error}
-    <span class="error">dang it - { error }</span>
+    <span class="error">dang it - {error}</span>
   {/await}
 </div>
 ```
