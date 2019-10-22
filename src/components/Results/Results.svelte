@@ -57,17 +57,15 @@
 
   .key {
     display: flex; // workaround whitespaces
-    font-weight: bold;
 
     &::after {
       content: ":";
-      color: bold;
     }
   }
 
   .value {
-    display: flex; // workaround whitespaces
-    margin-left: 0.25rem;
+    display: flex;
+    margin-left: auto;
   }
 </style>
 
@@ -83,8 +81,18 @@
             {entry.state}
           </dt>
           <dt class="value">
-            <span class="number">{entry[activeKey]}</span>
-            <span class="unit">{(activeKey === 'householdsWithCats') ? '%' : ''}</span>
+            <span class="number">
+              {#if ['catsPerHouseholdAbsolute', 'householdsWithCats'].includes(activeKey)}
+                {entry[activeKey].toFixed(1).toLocaleString('en')}
+              {:else if activeKey === 'rank'}
+                {entry[activeKey].toLocaleString('en').padStart(2, 0)}
+              {:else}
+                {entry[activeKey].toLocaleString('en')}
+              {/if}
+            </span>
+            <span class="unit">
+              {(activeKey === 'householdsWithCats') ? '%' : ''}
+            </span>
           </dt>
         </dl>
       </li>
