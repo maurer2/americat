@@ -80,3 +80,6 @@ public/
 
 # pycharm
 .idea
+
+# storybook
+storybook-static
