@@ -1,7 +1,7 @@
 <style lang="scss">
   @import './src/variables.scss';
   @import 'animatewithsass/_properties';
-  @import "animatewithsass/_attention-seekers/tada";
+  @import 'animatewithsass/_attention-seekers/tada';
 
   .header {
     position: sticky;
