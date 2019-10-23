@@ -82,4 +82,4 @@ public/
 .idea
 
 # storybook
-.storybook-static
+storybook-static

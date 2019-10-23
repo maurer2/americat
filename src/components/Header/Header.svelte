@@ -1,4 +1,5 @@
 <style lang="scss">
+  @import './src/variables.scss';
   @import 'animatewithsass/_properties';
   @import 'animatewithsass/_attention-seekers/tada';
 
@@ -9,7 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     grid-area: header;
-    background: #3c3b6e;
+    background: $blue;
     z-index: 1;
   }
 
@@ -19,20 +20,28 @@
     font-family: 'USA', Arial, sans-serif;
     font-weight: normal;
     font-size: 2.5rem;
-    color: #ffffff;
+    color: $white;
     cursor: default;
-  }
 
-  title:hover {
-    transform-origin: left center;
+    &:hover {
+      transform-origin: left center;
+
+      @include tada(
+        $duration: 0.75s,
+        $count: 1,
+        $delay: 0.25s,
+        $function: ease, 
+      );
+    }
   }
 
 </style>
 
-<header class="header">
-  <h1 class="title">
-    Americat
-  </h1>
-  <slot/>
-</header>
-
+<template lang="html">
+  <header class="header">
+    <h1 class="title">
+      Americat
+    </h1>
+    <slot/>
+  </header>
+</template>
